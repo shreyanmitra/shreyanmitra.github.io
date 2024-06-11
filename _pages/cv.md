@@ -9,6 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-[Download Shreyan's CV](Shreyan Mitra -  061124 Resume)
+[Download Shreyan's CV](../files/Shreyan Mitra -  061124 Resume)
 
 
