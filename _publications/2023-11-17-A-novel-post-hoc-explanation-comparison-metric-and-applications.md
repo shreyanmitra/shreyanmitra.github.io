@@ -5,7 +5,7 @@ permalink: /publication/2023-11-17-A-novel-post-hoc-explanation-comparison-metri
 excerpt: 'Explanatory systems make the behavior of machine learning models more transparent, but are often inconsistent. To quantify the differences between explanatory systems, this paper presents the Shreyan Distance, a novel metric based on the weighted difference between ranked feature importance lists produced by such systems'
 date: 2023-11-17
 venue: 'ICPRAI 2024 Conference Proceedings'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf](https://arxiv.org/pdf/2311.10811'
+paperurl: 'https://arxiv.org/pdf/2311.10811'
 citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation comparison metric and applications&quot; <i>ICPRAI 2024 Conference Proceedings</i>. 1(3).'
 ---
 
