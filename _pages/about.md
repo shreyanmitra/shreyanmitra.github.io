@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hello! :wave: I'm Shreyan Mitra, a student at the Paul G. Allen School of Computer Science at the University of Washington, Seattle. In recent years, machine learning (ML) has become a hot topic because of its tremendous capabilities and numerous applications. However, with great power comes great responsibility. 
+Hello! :wave: I'm Shreyan Mitra, a student at the Paul G. Allen School of Computer Science at the University of Washington, Seattle. 
 
-Because of this, I have focused my college research career on the following three areas:
+In recent years, machine learning (ML) has become a hot topic because of its tremendous capabilities and numerous applications. However, with great power comes great responsibility. Because of this, I have focused my college research career on the following three areas:
 
 1. Machine Learning Robustness - Making ML models less susceptible to error and more applicable to the tasks at hand.
 2. Machine Learning Accessibility - Ensuring people of different backgrounds, ages, and coding experiences can use ML tools to make their lives easier.
