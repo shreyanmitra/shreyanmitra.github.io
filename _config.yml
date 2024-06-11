@@ -21,8 +21,8 @@ repository               : "shreyanmitra/shreyanmitra.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Shreyan"
+  avatar           : "headshotportfolio.png"
+  name             : #Name
   pronouns         : #Pronoun
   bio              : "I am a student researcher and software developer focused on making machine learning more robust, accessible, and sustainable."
   location         : "Santa Clara, CA"
