@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download Shreyan's CV](../files/ShreyanMitra-061124Resume.pdf)
+[Download Shreyan's CV](https://github.com/user-attachments/files/16535758/Shreyan.Mitra.-.Databricks-SoftwareEngineerIntern-080624.Resume.pdf)
 
 <object data="../files/ShreyanMitra-061124Resume.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="../files/ShreyanMitra-061124Resume.pdf">
