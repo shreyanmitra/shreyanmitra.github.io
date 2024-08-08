@@ -4,7 +4,7 @@ collection: teaching
 type: "Tutoring"
 permalink: /teaching/lightandsaltacademy
 venue: "Light and Salt Academy"
-date: "2020-2022"
+date: 2020-11-17
 location: "Santa Clara, CA"
 ---
 
