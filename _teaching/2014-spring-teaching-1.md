@@ -1,20 +1,11 @@
 ---
-title: "Teaching experience 1"
+title: "Light and Salt Academy Tutor"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Tutoring"
+permalink: /teaching/lightandsaltacademy
+venue: "Light and Salt Academy"
+date: 2020-2022
+location: "Santa Clara, CA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Taught K-12 math and computer science to children from refugee families. Honored with the Presidential Voluteer Service Gold Medal for my work.
