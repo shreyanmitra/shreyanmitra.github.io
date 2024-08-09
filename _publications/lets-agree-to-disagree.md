@@ -2,7 +2,7 @@
 title: "Let's Agree to Disagree"
 collection: publications
 permalink: /publication/lets-agree-to-disagree
-excerpt: This is a working paper, building on previous work done <button type = "button" />
+excerpt: This is a working paper, building on previous work done <button type = "button">Hello</button>
 date: 2023-11-17
 venue: 'ICPRAI Conference Proceedings'
 paperurl: 'https://arxiv.org/pdf/2311.10811'
