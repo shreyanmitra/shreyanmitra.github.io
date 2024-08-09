@@ -1,8 +1,8 @@
 ---
-title: "Let's Agree to Disagree"
+title: "Let's Agree to Disagree: Towards a Solution to the Disagreement Problem in Explainability"
 collection: publications
 permalink: /publication/lets-agree-to-disagree
-excerpt: This is a working paper, building on previous work done <button type = "button">Hello</button>
+excerpt: <button type = "button">Working Paper</button> <button type = "button">Explainability</button>
 date: 2023-11-17
 venue: 'ICPRAI Conference Proceedings'
 paperurl: 'https://arxiv.org/pdf/2311.10811'
