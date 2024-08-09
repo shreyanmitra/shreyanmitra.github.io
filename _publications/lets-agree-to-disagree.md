@@ -2,7 +2,23 @@
 title: "Let's Agree to Disagree: Towards a Solution to the Disagreement Problem in Explainability"
 collection: publications
 permalink: /publication/lets-agree-to-disagree
-excerpt: <button style="background-color: white; color: \#D8BFD8; border: 2px solid \#4B0082; border-radius: 12px; padding: 10px 20px; cursor: pointer; transition: background-color 0.3s, color 0.3s;" onmouseover="this.style.backgroundColor='#D8BFD8';this.style.color='white';" onmouseout="this.style.backgroundColor='white';this.style.color='#D8BFD8';"> Working Paper </button> <button type = "button">Explainability</button>
+excerpt:
+<style>
+  .custom-button {
+      background-color: white;
+      color: #D8BFD8;
+      border: 2px solid #4B0082;
+      border-radius: 12px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+  }
+  .custom-button:hover {
+      background-color: #D8BFD8;
+      color: white;
+  }
+</style>
+<button class="custom-button"> Working Paper </button> <button type = "button">Explainability</button>
 date: 2023-11-17
 venue: 'ICPRAI Conference Proceedings'
 paperurl: 'https://arxiv.org/pdf/2311.10811'
