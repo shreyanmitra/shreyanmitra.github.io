@@ -1,8 +1,8 @@
 ---
-title: "A novel post-hoc explanation comparison metric and applications"
+title: "Let's Agree to Disagree"
 collection: publications
-permalink: /publication/2023-11-17-A-novel-post-hoc-explanation-comparison-metric-and-applications
-excerpt: 'Explanatory systems make the behavior of machine learning models more transparent, but are often inconsistent. To quantify the differences between explanatory systems, this paper presents the Shreyan Distance, a novel metric based on the weighted difference between ranked feature importance lists produced by such systems'
+permalink: /publication/lets-agree-to-disagree
+excerpt: "This is a working paper, building on previous work done <h2>Hello</h2>"
 date: 2023-11-17
 venue: 'ICPRAI Conference Proceedings'
 paperurl: 'https://arxiv.org/pdf/2311.10811'
