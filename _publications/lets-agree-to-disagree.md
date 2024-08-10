@@ -8,5 +8,5 @@ venue: 'ICPRAI Conference Proceedings'
 paperurl: 'https://arxiv.org/pdf/2311.10811'
 citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation comparison metric and applications&quot; <i>ICPRAI Conference Proceedings, 2024</i>. 1(3).'
 ---
-
+**Full Excerpt**
 Explanatory systems make the behavior of machine learning models more transparent, but are often inconsistent. To quantify the differences between explanatory systems, this paper presents the Shreyan Distance, a novel metric based on the weighted difference between ranked feature importance lists produced by such systems. This paper uses the Shreyan Distance to compare two explanatory systems, SHAP and LIME, for both regression and classification learning tasks. Because we find that the average Shreyan Distance varies significantly between these two tasks, we conclude that consistency between explainers not only depends on inherent properties of the explainers themselves, but also the type of learning task. This paper further contributes the XAISuite library, which integrates the Shreyan distance algorithm into machine learning pipelines.
