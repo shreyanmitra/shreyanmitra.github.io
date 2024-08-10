@@ -3,7 +3,7 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
@@ -28,7 +28,7 @@ author:
   location         : "Santa Clara, CA"
   employer         : "Univ. of Washington, Seattle"
   uri              : #Personal Website
-  email            : "shreyan.m.mitra@gmail.com" 
+  email            : "shreyan.m.mitra@gmail.com"
 
   # Academic websites
   arxiv            : "https://arxiv.org/search/cs?query=Mitra%2C+Shreyan&searchtype=author&abstracts=show&order=-announced_date_first&size=50"
@@ -44,8 +44,8 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "shreyanmitra"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   bluesky          : # Replace this with you Bluesky username
@@ -79,7 +79,7 @@ teaser                   :  # filename of teaser fallback teaser image placed in
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+read_more                : "enabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
