@@ -9,6 +9,8 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
+Click the link of each paper to see a longer description.
+
 {% include base_path %}
 
 {% for post in site.publications reversed %}
