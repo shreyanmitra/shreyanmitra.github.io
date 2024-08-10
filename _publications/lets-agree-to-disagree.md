@@ -2,7 +2,7 @@
 title: "Let's Agree to Disagree: Towards a Solution to the Disagreement Problem in Explainability"
 collection: publications
 permalink: /publication/lets-agree-to-disagree
-excerpt: <br> **Publication Status** <button> Working Paper </button> <br> **Topics** <button>ML Robustness</button> <button>ML Accessibility</button> <br> <br> **Associated With** <button> <img src='../files/AIEALogo.png' style='height:25px;'/>  AIEA Lab</button><br> **Previous Work**
+excerpt: <br> **Publication Status** <button> Working Paper </button> <br> **Topics** <button>ML Robustness</button> <button>ML Accessibility</button> <br> **Associated With** <button> <img src='../files/AIEALogo.png' style='height:25px;'/>  AIEA Lab</button><br> **Previous Work**
 date: 2023-11-17
 venue: 'ICPRAI Conference Proceedings'
 paperurl: 'https://arxiv.org/pdf/2311.10811'
