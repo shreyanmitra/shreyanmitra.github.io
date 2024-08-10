@@ -9,7 +9,7 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-Click the link of each paper to see a longer description.
+Click the link of each entry to see a longer description, along with links to download any slides, code, or papers.
 
 {% include base_path %}
 
