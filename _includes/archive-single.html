@@ -11,9 +11,8 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
-
-<div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; border-radius: 8px; min-width:600px;margin: auto">
 <div class="{{ include.type | default: "list" }}__item">
+  <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; border-radius: 8px; min-width:600px;margin: auto">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -55,5 +54,5 @@
 
 
   </article>
-</div>
+  </div>
 </div>
