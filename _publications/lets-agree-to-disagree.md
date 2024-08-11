@@ -2,7 +2,7 @@
 title: "Let's Agree to Disagree: Towards a Solution to the Disagreement Problem in Explainability"
 collection: publications
 permalink: /publication/lets-agree-to-disagree
-excerpt: <i>Published in ICPRAI and Arxiv</i><br><br4 papers (2 published conceptual papers, 1 working conceptual paper, and 1 working code paper). <br> This collection encompasses my work analyzing differences between explanatory systems, quantifying these differences, and integrating the resulting metrics into machine learning pipelines.
+excerpt: <i>Published in ICPRAI and Arxiv</i><br><br>4 papers (2 published conceptual papers, 1 working conceptual paper, and 1 working code paper). <br> This collection encompasses my work analyzing differences between explanatory systems, quantifying these differences, and integrating the resulting metrics into machine learning pipelines.
 date: 2024-11-17
 venue: 'ICPRAI Conference Proceedings'
 paperurl: 'https://arxiv.org/pdf/2311.10811'
