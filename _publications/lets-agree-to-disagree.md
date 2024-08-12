@@ -2,7 +2,7 @@
 title: "Let's Agree to Disagree: Towards a Solution to the Disagreement Problem in Explainability"
 collection: publications
 permalink: /publication/lets-agree-to-disagree
-excerpt: <i>Published in ICPRAI and Arxiv</i><br><br>2 papers (4 total versioned papers). <br> Explanatory systems give us a peek under the hood of blackbox ML models. This collection encompasses my work analyzing differences between explanatory systems, quantifying these differences, and integrating the resulting metrics into machine learning pipelines.<br><br>
+excerpt: <i>Published in ICPRAI and Arxiv</i><br><br>2 papers (4 total versioned papers). <br> Explanatory systems give us a peek under the hood of blackbox ML models. This collection encompasses my work analyzing differences between explanatory systems, quantifying these differences, and integrating the resulting metrics into machine learning pipelines.<br><br><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'>ML Robustness</button>
 date: 2024-11-17
 venue: 'ICPRAI Conference Proceedings'
 paperurl: 'https://arxiv.org/pdf/2311.10811'
