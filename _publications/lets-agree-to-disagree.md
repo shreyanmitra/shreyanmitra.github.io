@@ -45,6 +45,6 @@ From latest published version:
 <ol>
 <li>
 <u>The XAISuite framework and the implications of explanatory system dissonance </u> (preprint Arxiv 2023) <br> </li>
-<li> <u> A novel post-hoc explanation comparison metric and applications </u> (preprint Arxiv 2023 and published ICPRAI 2024) </li> <br> <br>
-<b>Archived Code** </b> <a href="github.com/11301858/XAISuite"> XAISuite </a>
+<li> <u> A novel post-hoc explanation comparison metric and applications </u> (preprint Arxiv 2023 and published ICPRAI 2024) </li> </ol><br> <br>
+**Archived Code** </b> <a href="github.com/11301858/XAISuite"> XAISuite </a>
 </div>
