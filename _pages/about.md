@@ -7,15 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-Hello! :wave: I'm Shreyan Mitra, a student in the Paul G. Allen School of Computer Science at the University of Washington, Seattle.
+Hello! :wave: I'm Shreyan Mitra, a student in the [Paul G. Allen School of Computer Science](https://www.cs.washington.edu) at the University of Washington, Seattle.
 
 In recent years, machine learning (ML) has become a hot topic because of its tremendous capabilities and numerous applications. However, with great power comes great responsibility. Because of this, I have focused my college research career on the following three areas:
 
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <ol>
-<li>Machine Learning Robustness - Making ML models less susceptible to error and more applicable to the tasks at hand.</li>
-<li>Machine Learning Accessibility - Ensuring people of different backgrounds, ages, and coding experiences can use ML tools to make their lives easier.</li>
-<li>Social and Environmental Impact - Ensuring ML, and artificial intelligence in general, are used in ethical and sustainable ways to further social and conservation goals.</li>
+<li><b>Machine Learning Robustness</b> - Making ML models less susceptible to error and more applicable to the tasks at hand.</li>
+<li><b>Machine Learning Accessibility</b> - Ensuring people of different backgrounds, ages, and coding experiences can use ML tools to make their lives easier.</li>
+<li><b>Social and Environmental Impact</b> - Ensuring ML, and artificial intelligence in general, are used in ethical and sustainable ways to further social and conservation goals.</li>
 </ol>
 </div>
 
