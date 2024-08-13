@@ -25,12 +25,17 @@ citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation com
 <i>For latest versions only</i>
 <br>
 <button>Code</button> <button>Paper</button> <button>Slides</button> <button>Video</button></div>
-**Excerpt**
-<br><i>None provided for current version. Taking excerpt from most recent published version</i>
+<div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
+<h2>Paper Preview</h2>
+<b>Excerpt</b>
+<br>None provided for current version. Taking excerpt from most recent published version
 <blockquote>Explanatory systems make the behavior of machine learning models more transparent, but are often inconsistent. To quantify the differences between explanatory systems, this paper presents the Shreyan Distance, a novel metric based on the weighted difference between ranked feature importance lists produced by such systems. This paper uses the Shreyan Distance to compare two explanatory systems, SHAP and LIME, for both regression and classification learning tasks. Because we find that the average Shreyan Distance varies significantly between these two tasks, we conclude that consistency between explainers not only depends on inherent properties of the explainers themselves, but also the type of learning task. This paper further contributes the XAISuite library, which integrates the Shreyan distance algorithm into machine learning pipelines.</blockquote>
-**Citation**
-<br><i>None provided for current version. Taking citation from most recent published version</i>
+<b>Citation</b>
+<br>None provided for current version. Taking citation from most recent published version
 <blockquote>Mitra, Shreyan and Gilpin, Leilani. (2023). &quot;A novel post-hoc explanation comparison metric and applications&quot; <i>ICPRAI Conference Proceedings, 2024</i>. 1(3). </blockquote>
+<b>Code</b>
+[XAIPipe](arxiv.org)
+</div>
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <h2> History </h2>
 <b>Previous Published Versions of This Paper</b>
