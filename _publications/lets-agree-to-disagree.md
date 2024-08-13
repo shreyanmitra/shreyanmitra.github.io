@@ -34,7 +34,8 @@ citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation com
 <br>None provided for current version. Taking citation from most recent published version
 <blockquote>Mitra, Shreyan and Gilpin, Leilani. (2023). &quot;A novel post-hoc explanation comparison metric and applications&quot; <i>ICPRAI Conference Proceedings, 2024</i>. 1(3). </blockquote>
 <b>Code</b>
-[XAIPipe](arxiv.org)
+<br>
+<a href="arxiv.org">XAIPipe</a>
 </div>
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <h2> History </h2>
