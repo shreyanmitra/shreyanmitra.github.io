@@ -12,11 +12,11 @@ Hello! :wave: I'm Shreyan Mitra, a student in the Paul G. Allen School of Comput
 In recent years, machine learning (ML) has become a hot topic because of its tremendous capabilities and numerous applications. However, with great power comes great responsibility. Because of this, I have focused my college research career on the following three areas:
 
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
-
-1. Machine Learning Robustness - Making ML models less susceptible to error and more applicable to the tasks at hand.
-2. Machine Learning Accessibility - Ensuring people of different backgrounds, ages, and coding experiences can use ML tools to make their lives easier.
-3. Social and Environmental Impact - Ensuring ML, and artificial intelligence in general, are used in ethical and sustainable ways to further social and conservation goals.
-
+<ol>
+<li>Machine Learning Robustness - Making ML models less susceptible to error and more applicable to the tasks at hand.
+<li>Machine Learning Accessibility - Ensuring people of different backgrounds, ages, and coding experiences can use ML tools to make their lives easier.
+<li>Social and Environmental Impact - Ensuring ML, and artificial intelligence in general, are used in ethical and sustainable ways to further social and conservation goals.
+</ol>
 </div>
 
 I like to be hands-on in my research, and most of my research work is accompanied by libraries or software tools that apply my findings to the real world.
