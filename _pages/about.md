@@ -24,15 +24,13 @@ I like to be hands-on in my research, and most of my research work is accompanie
 Specific lines of inquiry I have pursued / am currently pursuing include:
 
 <details>
-<summary>**Explainability**</summary>
+<summary><h3>Explainability</h3></summary>
 In short, explainability refers to understanding why ML models behave the way they do. Several explainability tools ("explanatory systems") have been developed in the last few years. My work on this topic includes devising a metric to compare different explanations for a given model and deciding which of them better approximates the ground truth. My research also brought me to create XAISuite, a library and framework in Python and Matlab that brings all the different explanatory systems onto an unified interface. XAISuite further democratizes AI by not requiring users to have any coding experience and to seamlessly deploy the models they need for their use case.
 </details>
 
 <details>
-<summary>
-**Hallucinations and Reasoning in Large Language Models**
+<summary><h3>Hallucinations and Reasoning in Large Language Models</h3></summary>
 Large language models (LLMs) like ChatGPT or Llama have gained widespread popularity due to their ability to answer questions and converse like humans. However, unlike humans, LLMs often fail to reason about scenarios in a logical and accurate manner. When LLMs generate incorrect, irrelevant, or nonsensical output, we say that it "hallucinates". I study the factors leading to LLM hallucinations and attempt to generate faster, more memory-efficient ways to detect hallucinations when they occur. I also look at ways to reduce the risk of such erroneous output, such as by incorporating symbolic reasoning, integrating a common sense database, or adding self-evaluation stages.
-</summary>
 </details>
 
 Of course, I am open to any new research area other than the ones above if it allows me to grow and aligns with my interest in responsible computing.
