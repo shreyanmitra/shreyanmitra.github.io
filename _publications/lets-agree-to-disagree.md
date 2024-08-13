@@ -20,7 +20,6 @@ citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation com
 <b>Dataset? </b><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> No </button><br>
 <b>Separate Papers for Code and Dataset? </b><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> No </button>
 </div>
-<br>
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 4px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <h2>Quick Access Buttons </h2>
 <i>For latest versions only</i>
