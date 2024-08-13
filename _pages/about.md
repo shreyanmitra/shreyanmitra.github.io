@@ -13,9 +13,9 @@ In recent years, machine learning (ML) has become a hot topic because of its tre
 
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <ol>
-<li>Machine Learning Robustness - Making ML models less susceptible to error and more applicable to the tasks at hand.
-<li>Machine Learning Accessibility - Ensuring people of different backgrounds, ages, and coding experiences can use ML tools to make their lives easier.
-<li>Social and Environmental Impact - Ensuring ML, and artificial intelligence in general, are used in ethical and sustainable ways to further social and conservation goals.
+<li>Machine Learning Robustness - Making ML models less susceptible to error and more applicable to the tasks at hand.</li>
+<li>Machine Learning Accessibility - Ensuring people of different backgrounds, ages, and coding experiences can use ML tools to make their lives easier.</li>
+<li>Social and Environmental Impact - Ensuring ML, and artificial intelligence in general, are used in ethical and sustainable ways to further social and conservation goals.</li>
 </ol>
 </div>
 
