@@ -36,8 +36,6 @@ Large language models (LLMs) like ChatGPT or Llama have gained widespread popula
 </details>
 </div>
 <br>
-<br>
-
 Of course, I am open to any new research area other than the ones above if it allows me to grow and aligns with my interest in responsible computing.
 
 In addition to my research, I am also the President and Co-founder of [Computing for Environmental and Social Advocacy (CESA)](https://uwcesa.github.io), a 30+ member team affiliated with the University of Washington Allen School that focuses on applied topics such as an AI-driven solution to the climate crisis and a software tool to check for potential ethical violations/accessibility concerns in code. Currently, we're working on modeling pollution in disadvantaged communities of the Puget Sound area.
