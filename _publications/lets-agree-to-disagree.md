@@ -2,7 +2,7 @@
 title: "Let's Agree to Disagree: Towards a Solution to the Disagreement Problem in Explainability"
 collection: publications
 permalink: /publication/lets-agree-to-disagree
-excerpt: <i>Published in ICPRAI and Arxiv</i><br><br>2 papers (4 total versioned papers). <br> Explanatory systems give us a peek under the hood of blackbox ML models. This collection encompasses my work analyzing differences between explanatory systems, quantifying these differences, and integrating the resulting metrics into machine learning pipelines.<br><br><button>Code</button> <button>Paper</button> <button>Slides</button> <button>Video</button>
+excerpt: <i>Published in ICPRAI and Arxiv</i><br><br>2 papers (4 total versioned papers). <br> Explanatory systems give us a peek under the hood of blackbox ML models. This collection encompasses my work analyzing differences between explanatory systems, quantifying these differences, and integrating the resulting metrics into machine learning pipelines.<br><br><button onclick="location.href='https://github.com/shreyanmitra/XAIPipe'" type="button">Code</button> <button>Paper</button> <button disabled>Slides</button> <button disabled>Video</button>
 date: 2024-11-17
 venue: 'ICPRAI Conference Proceedings'
 paperurl: 'https://arxiv.org/pdf/2311.10811'
@@ -24,6 +24,7 @@ citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation com
 <h2>Quick Access Buttons </h2>
 <i>For latest versions only</i>
 <br>
+<br>
 <button>Code</button> <button>Paper</button> <button disabled>Slides</button> <button disabled>Video</button></div>
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <h2>Paper Preview</h2>
@@ -35,7 +36,7 @@ citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation com
 <blockquote>Mitra, Shreyan and Gilpin, Leilani. (2023). &quot;A novel post-hoc explanation comparison metric and applications&quot; <i>ICPRAI Conference Proceedings, 2024</i>. 1(3). </blockquote>
 <b>Code</b>
 <br>
-<a href="arxiv.org">XAIPipe</a>
+<a href="https://github.com/shreyanmitra/XAIPipe">XAIPipe</a>
 </div>
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <h2> History </h2>
