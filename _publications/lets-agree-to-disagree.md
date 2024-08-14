@@ -24,7 +24,7 @@ citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation com
 <h2>Quick Access Buttons </h2>
 <i>For latest versions only</i>
 <br>
-<button>Code</button> <button>Paper</button> <button>Slides</button> <button>Video</button></div>
+<button>Code</button> <button>Paper</button> <button disabled>Slides</button> <button disabled>Video</button></div>
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <h2>Paper Preview</h2>
 <b>Excerpt</b>
