@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You'll have the option to either download my resume or see it the embedded viewer below. Note that this resume may be a bit outdated. I try to update it at least once a month.
+You'll have the option to either download my resume or see it the embedded viewer below. Note that this resume may be a bit outdated. I try to update it at least once a month. For a more detailed CV, please visit my [LinkedIn profile](linkedin.com/in/shreyanmitra), where you can also connect with me.
 
 [Download Shreyan's CV](../files/Shreyan Mitra-080924Resume.pdf)
 

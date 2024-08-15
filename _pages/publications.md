@@ -9,7 +9,7 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-Note that these are only my <i>academic</i> publications. For other publications, please visit the personal tab.
+Note that these are only my <i>academic</i> publications. For my sporadically maintained blog on everything computer science and environmental conservation related, please visit [this site](shreyanmmitra.substack.com). For my book list and book reviews, visit [this site](shreyanreviews.wordpress.com). And for my art, visit [this site]()
 
 Sometimes, I have grouped multiple published papers into one listing. This can happen for multiple reasons, such as some papers being intermediate versions of another paper, or papers being associated with the code or dataset used by another paper.
 
