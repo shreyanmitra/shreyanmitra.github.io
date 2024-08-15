@@ -13,7 +13,7 @@ Note that these are only my <i>academic</i> publications. For my sporadically ma
 
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <details>
-<summary> <b> How are these organized? <b> </summary>
+<summary> <b> How are these organized? </b> </summary>
 Sometimes, I have grouped multiple published papers into one listing. This can happen for multiple reasons, such as some papers being intermediate versions of another paper, or papers being associated with the code or dataset used by another paper.
 
 Wherever a listing has more than one published paper associated with it, I have specified how many published papers are represented by that listing.
