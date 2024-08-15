@@ -2,7 +2,7 @@
 title: "Let's Agree to Disagree: Towards a Solution to the Disagreement Problem in Explainability"
 collection: publications
 permalink: /publication/lets-agree-to-disagree
-excerpt: <i>Published in ICPRAI and Arxiv</i><br><br>2 papers (4 total versioned papers). <br> Explanatory systems give us a peek under the hood of blackbox ML models. This collection encompasses my work analyzing differences between explanatory systems, quantifying these differences, and integrating the resulting metrics into machine learning pipelines.<br><br><button onclick="location.href='https://github.com/shreyanmitra/XAIPipe'" type="button">Code</button> <button>Paper</button> <button disabled>Slides</button> <button disabled>Video</button><button disabled>Talk</button>
+excerpt: <i>Published in ICPRAI and Arxiv</i><br><br>2 papers (4 total versioned papers). <br> Explanatory systems give us a peek under the hood of blackbox ML models. This collection encompasses my work analyzing differences between explanatory systems, quantifying these differences, and integrating the resulting metrics into machine learning pipelines.<br><br><button onclick="location.href='https://github.com/shreyanmitra/XAIPipe'" type="button">Code</button> <button>Paper</button> <button disabled>Slides</button> <button disabled>Video</button><button disabled>Talk</button><button disabled>Datasets</button>
 date: 2024-11-17
 venue: 'ICPRAI Conference Proceedings'
 paperurl: 'https://arxiv.org/pdf/2311.10811'
@@ -25,7 +25,7 @@ citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation com
 <i>For latest versions only</i>
 <br>
 <br>
-<button>Code</button> <button>Paper</button> <button disabled>Slides</button> <button disabled>Video</button><button disabled>Talk</button></div>
+<button>Code</button> <button>Paper</button> <button disabled>Slides</button> <button disabled>Video</button><button disabled>Talk</button></div><button disabled>Datasets</button>
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <h2>Paper Preview</h2>
 <b>Excerpt</b>
