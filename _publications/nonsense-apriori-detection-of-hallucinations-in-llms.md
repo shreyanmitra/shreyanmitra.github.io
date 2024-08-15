@@ -10,7 +10,7 @@ citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation com
 ---
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 4px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <h2>At a Glance</h2>
-<b>Publication Venue</b><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> -</button>
+<b>Publication Venue</b><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> -</button><br>
 <b>Publication Status</b> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Working Paper </button> <br> <b>Part of</b> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'>ML Robustness</button> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'>ML Accessibility</button> <br> <b>Topic</b><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Hallucinations in Large Language Models </button><br><b>Associated With</b> <button onclick="location.href='http://aiea-lab.github.io'" style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> <img src='../files/AIEALogo.png' style='height:20px;'/>  AIEA Lab</button>
 <br>
 <br>
@@ -25,7 +25,7 @@ citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation com
 <i>For latest versions only</i>
 <br>
 <br>
-<button>Code</button> <button>Paper</button> <button disabled>Slides</button> <button disabled>Video</button><button disabled>Talk</button></div> <button>Datasets</button>
+<button>Code</button> <button>Paper</button> <button disabled>Slides</button> <button disabled>Video</button><button disabled>Talk</button><button>Datasets</button></div>
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <h2>Paper Preview</h2>
 <b>Excerpt</b>
@@ -41,5 +41,6 @@ citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation com
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <h2> History </h2>
 <b>Previous Published Versions of This Paper</b>
+<br>
 <i>No previous versions found</i>
 </div>
