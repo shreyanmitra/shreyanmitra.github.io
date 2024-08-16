@@ -9,3 +9,5 @@ location: "Santa Clara, CA"
 ---
 
 Taught K-12 math and computer science to children from refugee families. Honored with the Presidential Voluteer Service Gold Medal for my work.
+
+<button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Unpaid/Volunteer </button>

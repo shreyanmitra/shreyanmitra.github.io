@@ -36,7 +36,12 @@ citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation com
 <blockquote></blockquote>
 <b>Code</b>
 <br>
-<i>None found</i>
+<a href = "">CandyLLM</a>
+<a href = "">Hallucina</a>
+<br>
+<b>Dataset</b>
+<br>
+<a href = "">Hallucination Dataset on HuggingFace</a>
 </div>
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <h2> History </h2>
