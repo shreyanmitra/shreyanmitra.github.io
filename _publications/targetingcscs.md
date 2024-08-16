@@ -2,7 +2,7 @@
 title: "The Effect of Targeting Cancer Stem Cells on the Metastasis of Malignant Tumors"
 collection: publications
 permalink: /publication/targetingcscs
-excerpt: 1 poster <br>Used clonal evolution to model and analyze the effects of different cancer treatments on the probability of metastasis.<br><br><button>Code</button> <button>Paper</button> <button disabled>Slides</button> <button disabled>Video</button> <button disabled>Talk</button> <button disabled>Datasets</button>
+excerpt: 1 poster <br>Used clonal evolution to model and analyze the effects of different cancer treatments on the probability of metastasis.<br><br><button disabled>Code</button> <button>Paper</button> <button disabled>Slides</button> <button disabled>Video</button> <button disabled>Talk</button> <button disabled>Datasets</button>
 date: 2021-07-01
 venue: 'Github Proceedings'
 paperurl: 'www.google.com'
