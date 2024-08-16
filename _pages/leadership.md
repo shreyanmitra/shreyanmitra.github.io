@@ -10,7 +10,7 @@ Below, you will find my leadership experiences and awards. For sake of brevity, 
 
 {% include base_path %}
 
-{% for post in site.leadership reversed %}
+{% for post in site.leadership %}
   {% include archive-single.html %}
 {% endfor %}
 
