@@ -29,11 +29,12 @@ citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation com
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <h2>Paper Preview</h2>
 <b>Excerpt</b>
-<blockquote>Abstract
+<blockquote>
 The ability of Cancer Stem Cells (CSCs) to develop drug resistance and induce metastasis has prompted research around the question: “How much more effective is targeting CSCs in comparison to targeting non-stem cancer cells in the treatment of lung cancer?” Conventional cancer therapy, which targets non-stem cancer cells, have been proven to reduce primary tumor growth, but has limited success in preventing metastasis.  Our research has shown that artificial and natural treatments for CSCs are more effective at reducing invasion, metastasis, and angiogenesis.
 </blockquote>
 <b>Citation</b>
-<blockquote>Vichare, Aryan and Chun, Nathan and Thomas, Kade and Mitra, Shreyan. Targeting CSCs vs Non-Stem Cancer Cells for Treating Lung Cancer. 2021</></blockquote>
+<br>
+Vichare, Aryan and Chun, Nathan and Thomas, Kade and Mitra, Shreyan. <i>Targeting CSCs vs Non-Stem Cancer Cells for Treating Lung Cancer.</i> 2021.
 </div>
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <h2> History </h2>
