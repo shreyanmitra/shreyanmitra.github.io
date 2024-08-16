@@ -42,5 +42,7 @@ Of course, I am open to any new research area other than the ones above if it al
 
 In addition to my research, I am also the President and Co-founder of [Computing for Environmental and Social Advocacy (CESA)](https://uwcesa.github.io), a 30+ member team affiliated with the University of Washington Allen School that focuses on applied topics such as an AI-driven solution to the climate crisis and a software tool to check for potential ethical violations/accessibility concerns in code. Currently, we're working on modeling pollution in disadvantaged communities of the Puget Sound area.
 
+In my free time, I enjoy playing cricket. I am the President of the Husky Cricket Club at the University of Washington, and always open for a late afternoon game.
+
 ## About this site
 This is my professional portfolio. Here, you'll find examples of my research, publications, and teaching experience. However, wherever possible, I have included links to external sites if you want to learn more about me as a person.
