@@ -9,7 +9,7 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-Note that these are only my <i>academic</i> publications. For my sporadically maintained blog on everything computer science and environmental conservation related, please visit [this site](shreyanmmitra.substack.com). For my book list and book reviews, visit [this site](shreyanreviews.wordpress.com). And for my art, visit [this site]()
+Note that these are only my <i>academic</i> publications. For my sporadically maintained blog on everything computer science and environmental conservation related, please visit [this site](shreyanmmitra.substack.com). For my book list and book reviews, visit [this site](shreyanreviews.wordpress.com). And for my art, visit [this site](https://shreyansart.wordpress.com)
 
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <details>
