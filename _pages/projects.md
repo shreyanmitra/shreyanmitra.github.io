@@ -41,5 +41,9 @@ Below, you will find a combination of hard and soft skills I have picked up from
 <i>Languages (At least professional fluency)</i>
 <br>
 <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Bengali</button><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> French</button><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> English</button>
+<hr>
+<i>🎓 Degrees (Completed or In Progress)</i>
+<br>
+<button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> BS, Computer Science (minor Entrepreneurship)</button><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> AS, Computer Information Systems</button><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> AA, Natural Science and Math</button> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Machine Learning Specialization</button> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> High School Diploma</button>
 </details>
 </div>
