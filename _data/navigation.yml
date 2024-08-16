@@ -3,7 +3,7 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Projects"
+  - title: "Projects & Skills"
     url: /projects/
 
   - title: "Talks"
@@ -11,6 +11,9 @@ main:
 
   - title: "Teaching"
     url: /teaching/
+
+  - title: "Leadership & Awards"
+    url: /leadership/
 
   - title: "CV"
     url: /cv/
