@@ -13,9 +13,9 @@ author_profile: true
 <details>
 <summary><b>Which publications were chosen?</b></summary>
 
-Note that these are only my <i>academic</i> publications. For my sporadically maintained blog on everything computer science and environmental conservation related, please visit [this site](shreyanmmitra.substack.com). For my book list and book reviews, visit [this site](shreyanreviews.wordpress.com). And for my art, visit [this site](https://shreyansart.wordpress.com).
+Note that these are only my <i>academic</i> publications. For my sporadically maintained blog on everything computer science and environmental conservation related, please visit <a href="shreyanmmitra.substack.com">this site</a>. For my book list and book reviews, visit <a href="shreyanreviews.wordpress.com">this site</a>. And for my art, visit <a href="https://shreyansart.wordpress.com">this site</a>.
 
-I also edited and co-wrote a book using my experience as a geography bee and olympiad champion at the national level to help the next generation of contestants to succeed. [Buy it](https://www.amazon.com/Geography-Bee-Simplified-Preparation-Competitions/dp/B096YX7D5X) from Amazon.
+I also edited and co-wrote a book using my experience as a geography bee and olympiad champion at the national level to help the next generation of contestants to succeed. <a href="https://www.amazon.com/Geography-Bee-Simplified-Preparation-Competitions/dp/B096YX7D5X">Buy it</a> from Amazon.
 </details>
 </div>
 
