@@ -16,14 +16,14 @@ This page was created to include personal coding projects not associated with my
 
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <details>
-<summary>Other Projects</summary>
+<summary><b>Other Projects</b></summary>
 For convenience, projects associated with research papers or otherwise not listed here, are put together below:
 <br>
 <br>
-<ol>
+<ul>
 <li><a href="">XAIPipe</a> (formerly <a href ="">XAISuite</a>)</li>
 <li><a href="">CandyLLM</a></li>
 <li><a href="">Hallucina</a></li>
-</ol>
+</ul>
 </details>
 </div>
