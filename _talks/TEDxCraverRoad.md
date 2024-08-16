@@ -14,4 +14,5 @@ Many of my proposals coincided with the positions adopted by the countries at th
 <br>
 <b>Venue</b> <button onclick="location.href='https://www.ted.com/talks/shreyan_mitra_oceans_are_listening_our_foreign_policy_must_speak'" style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> <img src='../files/TEDx-logo.png' style='height:20px;'/>  TEDx</button>
 <br>
+<br>
 <button onclick="location.href='https://www.ted.com/talks/shreyan_mitra_oceans_are_listening_our_foreign_policy_must_speak'" type="button">View Talk</button>
