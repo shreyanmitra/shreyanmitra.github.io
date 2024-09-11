@@ -41,5 +41,5 @@ Click the link of each entry to see a longer description, along with links to do
 <b>Research Affiliations</b>
 <br>
 <br>
-<button onclick="location.href='http://aiea-lab.github.io'" style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> <img src='../files/AIEALogo.png' style='height:20px;'/>  AIEA Lab @UCSC</button> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> <img src='../files/AIEALogo.png' style='height:20px;'/> SocialRL Lab @UWSeattle</button>
+<button onclick="location.href='http://aiea-lab.github.io'" style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> <img src='../files/AIEALogo.png' style='height:20px;'/>  AIEA Lab @UCSC</button> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> SocialRL Lab @UWSeattle</button>
 </div>
