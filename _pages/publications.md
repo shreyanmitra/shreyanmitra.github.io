@@ -36,3 +36,10 @@ Click the link of each entry to see a longer description, along with links to do
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+<div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
+<b>Research Affiliations</b>
+<br>
+<br>
+<button onclick="location.href='http://aiea-lab.github.io'" style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> <img src='../files/AIEALogo.png' style='height:20px;'/>  AIEA Lab @UCSC</button> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> <img src='../files/AIEALogo.png' style='height:20px;'/> SocialRL Lab @UWSeattle</button>
+</div>
