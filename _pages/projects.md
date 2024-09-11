@@ -5,7 +5,9 @@ permalink: /projects/
 author_profile: true
 ---
 
-This page was created to include personal coding projects not associated with my research. For code I wrote as part of larger research projects go to the 'Publications' tab. Then, for each listing, you will be able to download the project code.
+This page was created to include coding projects not associated with my research (either personal or job-related). For code I wrote as part of larger research projects go to the 'Publications' tab. Then, for each listing, you will be able to download the project code.
+
+For a personal project, you can download the code and see the skills I learned. For projects associated with a job, you will also see a list of skills, along with the name of the position and company, if applicable.
 
 
 {% include base_path %}
