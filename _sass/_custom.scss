@@ -1,0 +1,36 @@
+/* Portfolio-specific compatibility rules layered over AcademicPages v0.9. */
+
+.archive__item-card {
+  box-sizing: border-box;
+  min-width: 0;
+  margin-bottom: 1.5625rem;
+  padding: 0.5rem 1.25rem 1.25rem;
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+}
+
+/* Older authored cards contain fixed inline widths. Keep their appearance while
+   allowing them to fit phones and enlarged-text layouts. */
+.page__content [style*="min-width:600px"],
+.page__content [style*="min-width: 600px"],
+.archive [style*="min-width:600px"],
+.archive [style*="min-width: 600px"] {
+  box-sizing: border-box;
+  min-width: 0 !important;
+  max-width: 100%;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color) !important;
+}
+
+.page__content iframe,
+.page__content embed,
+.page__content object {
+  max-width: 100%;
+}
+
+.page__content iframe[src*="talkmap"] {
+  width: 100%;
+}

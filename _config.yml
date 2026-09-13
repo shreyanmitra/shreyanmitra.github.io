@@ -8,6 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
+site_theme               : "default" # default, air, sunrise, mint, dirt, or contrast
 title                    : "Shreyan Mitra"
 title_separator          : "-"
 name                     : &name "Shreyan"
@@ -127,6 +128,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
+og_description           :  # Description for the default social preview image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -152,6 +154,7 @@ exclude:
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
+  - .github
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
@@ -166,6 +169,7 @@ exclude:
   - assets/js/vendor
   - config
   - gulpfile.js
+  - local
   - log
   - node_modules
   - package.json
@@ -304,6 +308,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-redirect-from
   - jemoji
 
 
