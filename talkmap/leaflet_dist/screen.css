@@ -1,10 +1,11 @@
 
 	#map {
-		width: 800px; 
-		height: 600px; 
+		box-sizing: border-box;
+		width: 100%;
+		max-width: 800px;
+		height: 600px;
 		border: 1px solid #ccc;
 	}
-
 	#progress {
 	    display: none;
 	    position: absolute;
@@ -27,4 +28,3 @@
 	    background-color: #76A6FC;
 	    border-radius: 4px;
 	}
-        

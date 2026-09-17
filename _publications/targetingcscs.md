@@ -4,9 +4,7 @@ collection: publications
 permalink: /publication/targetingcscs
 excerpt: 1 poster <br>Used clonal evolution to model and analyze the effects of different cancer treatments on the probability of metastasis.<br><br><button disabled>Code</button> <button>Paper</button> <button disabled>Slides</button> <button disabled>Video</button> <button disabled>Talk</button> <button disabled>Datasets</button>
 date: 2021-07-01
-venue: 'Github Proceedings'
-paperurl: 'www.google.com'
-citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation comparison metric and applications&quot; <i>ICPRAI Conference Proceedings, 2024</i>. 1(3).'
+venue: 'UC Irvine - COSMOS Poster Session'
 ---
 <div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 4px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
 <h2>At a Glance</h2>

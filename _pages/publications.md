@@ -13,7 +13,7 @@ author_profile: true
 <details>
 <summary><b>Which publications were chosen?</b></summary>
 
-Note that these are only my <i>academic</i> publications. For my sporadically maintained blog on everything computer science and environmental conservation related, please visit <a href="shreyanmmitra.substack.com">this site</a>. For my book list and book reviews, visit <a href="shreyanreviews.wordpress.com">this site</a>. And for my art, visit <a href="https://shreyansart.wordpress.com">this site</a>.
+Note that these are only my <i>academic</i> publications. For my sporadically maintained blog on everything computer science and environmental conservation related, please visit <a href="https://shreyanmmitra.substack.com">this site</a>. For my book list and book reviews, visit <a href="https://shreyanreviews.wordpress.com">this site</a>. And for my art, visit <a href="https://shreyansart.wordpress.com">this site</a>.
 
 I also edited and co-wrote a book using my experience as a geography bee and olympiad champion at the national level to help the next generation of contestants to succeed. <a href="https://www.amazon.com/Geography-Bee-Simplified-Preparation-Competitions/dp/B096YX7D5X">Buy it</a> from Amazon.
 </details>
@@ -41,5 +41,5 @@ Click the link of each entry to see a longer description, along with links to do
 <b>Research Affiliations</b>
 <br>
 <br>
-<button onclick="location.href='http://aiea-lab.github.io'" style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> <img src='../files/AIEALogo.png' style='height:20px;'/>  AIEA Lab @UCSC</button> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> SocialRL Lab @UWSeattle</button>
+<button onclick="location.href='https://aiea-lab.github.io'" style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> <img src='../files/AIEALogo.png' style='height:20px;'/>  AIEA Lab @UCSC</button> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> SocialRL Lab @UWSeattle</button>
 </div>

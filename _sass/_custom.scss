@@ -3,13 +3,17 @@
 .archive__item-card {
   box-sizing: border-box;
   min-width: 0;
-  margin-bottom: 1.5625rem;
-  padding: 0.5rem 1.25rem 1.25rem;
+  margin-bottom: 25px;
+  padding: 8px 20px 20px;
   color: var(--global-text-color);
   background: var(--global-bg-color);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+html[data-theme="dark"] .archive__item-card {
   border: 1px solid var(--global-border-color);
-  border-radius: $border-radius;
-  box-shadow: $box-shadow;
 }
 
 /* Older authored cards contain fixed inline widths. Keep their appearance while
@@ -27,8 +31,16 @@
 
 .page__content iframe,
 .page__content embed,
-.page__content object {
+.page__content object,
+.archive iframe,
+.archive embed,
+.archive object {
   max-width: 100%;
+}
+
+.archive object[type="application/pdf"] {
+  height: auto;
+  aspect-ratio: 7 / 9;
 }
 
 .page__content iframe[src*="talkmap"] {

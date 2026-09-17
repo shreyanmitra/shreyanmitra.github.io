@@ -5,7 +5,7 @@ html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
-  
+
   scroll-behavior: smooth;
 }
 
@@ -323,7 +323,7 @@ nav {
    ANIMATIONS
    ========================================================================== */
 
-   @-webkit-keyframes intro {
+  @-webkit-keyframes intro {
     0% {
       opacity: 0;
     }
@@ -331,7 +331,7 @@ nav {
       opacity: 1;
     }
   }
-  
+
   @keyframes intro {
     0% {
       opacity: 0;

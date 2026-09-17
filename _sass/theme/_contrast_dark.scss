@@ -107,7 +107,7 @@ html[data-theme="dark"] {
     }
 
     .notice--danger {
-      background-color: mix($background, $danger-color, 85%);      
+      background-color: mix($background, $danger-color, 85%);
       color: #{$text};
       border-color: #{$text};
     }
