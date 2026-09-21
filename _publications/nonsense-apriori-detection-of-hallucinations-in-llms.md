@@ -4,26 +4,29 @@ collection: publications
 permalink: /publication/nonsense-apriori-detection-of-hallucinations-in-llms
 excerpt: <i>Nothing here yet</i>
 date: 2024-11-18
+portfolio_category: "Working paper"
+summary: "Work on hallucinations in large language models. No published versions are listed yet."
 ---
-<div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 4px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
+
+<div class="legacy-panel">
 <h2>At a Glance</h2>
-<b>Publication Venue</b><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> -</button><br>
-<b>Publication Status</b> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Working Paper </button> <br> <b>Part of</b> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'>ML Robustness</button> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'>ML Accessibility</button> <br> <b>Topic</b><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Hallucinations in Large Language Models </button><br><b>Associated With</b> <button onclick="location.href='https://aiea-lab.github.io'" style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> <img src='../files/AIEALogo.png' style='height:20px;'/>  AIEA Lab</button>
+<b>Publication Venue</b><span class="tag"> -</span><br>
+<b>Publication Status</b> <span class="tag"> Working Paper </span> <br> <b>Part of</b> <span class="tag">ML Robustness</span> <span class="tag">ML Accessibility</span> <br> <b>Topic</b><span class="tag"> Hallucinations in Large Language Models </span><br><b>Associated With</b> <a class="resource-link" href="https://aiea-lab.github.io"> <img src='/files/AIEALogo.png' style='height:20px;'/>  AIEA Lab</a>
 <br>
 <br>
 <b>Versions </b>
-<button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'>0</button><br>
-<b>Code? </b><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Yes </button><br>
-<b>Dataset? </b><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Yes </button><br>
-<b>Separate Papers for Code and Dataset? </b><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> No </button>
+<span class="tag">0</span><br>
+<b>Code? </b><span class="tag"> Yes </span><br>
+<b>Dataset? </b><span class="tag"> Yes </span><br>
+<b>Separate Papers for Code and Dataset? </b><span class="tag"> No </span>
 </div>
-<div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 4px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
+<div class="legacy-panel">
 <h2>Quick Access Buttons </h2>
 <i>For latest versions only</i>
 <br>
 <br>
-<button>Code</button> <button>Paper</button> <button disabled>Slides</button> <button disabled>Video</button> <button disabled>Talk</button> <button>Datasets</button></div>
-<div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
+<span class="resource-unavailable" title="No resource link is available">Code</span> <span class="resource-unavailable" title="No resource link is available">Paper</span> <span class="resource-unavailable" title="No resource link is available">Slides</span> <span class="resource-unavailable" title="No resource link is available">Video</span> <span class="resource-unavailable" title="No resource link is available">Talk</span> <span class="resource-unavailable" title="No resource link is available">Datasets</span></div>
+<div class="legacy-panel">
 <h2>Paper Preview</h2>
 <b>Excerpt</b>
 <br>No versions found.
@@ -33,14 +36,14 @@ date: 2024-11-18
 <blockquote></blockquote>
 <b>Code</b>
 <br>
-<a href = "">CandyLLM</a>
-<a href = "">Hallucina</a>
+<span class="resource-unavailable" title="No resource link is available">CandyLLM</span>
+<span class="resource-unavailable" title="No resource link is available">Hallucina</span>
 <br>
 <b>Dataset</b>
 <br>
-<a href = "">Hallucination Dataset on HuggingFace</a>
+<span class="resource-unavailable" title="No resource link is available">Hallucination Dataset on HuggingFace</span>
 </div>
-<div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
+<div class="legacy-panel">
 <h2> History </h2>
 <b>Previous Published Versions of This Paper</b>
 <br>

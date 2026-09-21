@@ -1,12 +1,16 @@
 ---
-layout: archive
+layout: portfolio-archive
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
+author_profile: false
+section: teaching
+section_index: '04'
+display_title: 'Courses & <em>Mentorship</em>'
+subtitle: "Teaching across disciplines, widening access to computing, and supporting fellow researchers."
 ---
 
-{% include base_path %}
-
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<section class="container archive-content"><span class="eyebrow">Course history</span>
+{% for item in site.teaching reversed %}{% include portfolio-row.html item=item full=true %}{% endfor %}
+</section>
+<section class="section section-compact"><div class="container">{% include portfolio-heading.html index='04.1' label='Research mentorship' title='Working <em>Together</em>' %}<div class="cell-grid">{% for item in site.leadership %}{% if item.url == '/leadership/aiealead' %}{% include portfolio-card.html item=item %}{% endif %}{% endfor %}<div class="research-cell"><h3>LLM Logic Reading Group</h3><p>I am also the presenter for the LLM Logic Reading Group at the AIEA Lab, UC Santa Cruz.</p><a class="text-link" href="{{ '/talks/' | relative_url }}">Explore talks →</a></div></div></div></section>
+<section class="section section-compact"><div class="container"><span class="eyebrow">Guest lectures</span>{% for item in site.talks %}{% if item.portfolio_category == 'Guest lecture' %}{% include portfolio-row.html item=item full=true %}{% endif %}{% endfor %}</div></section>

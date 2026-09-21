@@ -1,19 +1,14 @@
 ---
-layout: archive
+layout: portfolio-archive
 title: "Talks and presentations"
 permalink: /talks/
-author_profile: true
+author_profile: false
+section: talks
+section_index: '06'
+display_title: 'Presentations & <em>Talks</em>'
+subtitle: "Computing, sustainability, and environmental policy — in classrooms, on stage, and on screen."
 ---
-Warning: Talks associated with research projects may or may not be listed below. Go to the 'Publications' tab to see talks corresponding to particular research papers.
 
-In addition to the talks mentioned below, I am also the presenter for the LLM Logic Reading Group at the AIEA Lab, UC Santa Cruz.
-
-{% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<section class="section section-compact"><div class="container"><div class="tags" aria-label="Talk types"><span class="badge badge-tedx">TEDx</span><span class="badge badge-guest-lecture">Guest lecture</span><span class="badge badge-documentary">Documentary</span></div></div></section>
+<section class="container archive-content"><div class="prose">{% capture notes %}{% include portfolio-talk-notes.html %}{% endcapture %}{{ notes | markdownify }}</div>
+{% assign talks = site.talks | sort: 'date' | reverse %}{% assign last_year = '' %}{% for item in talks %}{% assign year = item.date | date: '%Y' %}{% unless year == last_year %}<h2 class="group-label">{{ year }}</h2>{% assign last_year = year %}{% endunless %}{% include portfolio-row.html item=item full=true %}{% endfor %}</section>

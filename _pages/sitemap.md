@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: portfolio-detail
 title: "Sitemap"
 permalink: /sitemap/
 author_profile: true

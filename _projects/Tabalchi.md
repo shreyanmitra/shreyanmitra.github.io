@@ -4,12 +4,17 @@ collection: projects
 type: "Project"
 permalink: /projects/tabalchi
 date: 2024-10-22
+portfolio_category: "Libraries"
+featured: true
+tags: ["MIDI","Audio playback","JSON","LLM prompting"]
+summary: "A library to parse, generate, and transcribe Indian classical music."
+codeurl: "https://github.com/shreyanmitra/Tabalchi"
 ---
 
 Created a library to parse, generate, and transcribe Indian classical music.
 <br>
 <br>
-<b>Skills:</b> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> MIDI</button>  <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Audio Playback</button><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Indian Classical Music</button><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> JSON Parsing</button><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Singleton Design Structure</button><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Large Language Model (LLM) Prompting</button>
+<b>Skills:</b> <span class="tag"> MIDI</span>  <span class="tag"> Audio Playback</span><span class="tag"> Indian Classical Music</span><span class="tag"> JSON Parsing</span><span class="tag"> Singleton Design Structure</span><span class="tag"> Large Language Model (LLM) Prompting</span>
 <br>
 <br>
-<button onclick="window.open('https://github.com/shreyanmitra/Tabalchi','_blank');" type="button">View and Download Code</button>
+<a class="resource-link" href="https://github.com/shreyanmitra/Tabalchi">View and Download Code</a>

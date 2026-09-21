@@ -1,0 +1,97 @@
+{
+  "groups": [
+    {
+      "name": "Machine learning & research",
+      "skills": [
+        "LLMs",
+        "Explainability",
+        "CoLab",
+        "Sci-Kit Learn",
+        "Keras",
+        "PyTorch",
+        "Jupyter Notebook",
+        "Data Processing and Visualization",
+        "Recommender Systems",
+        "Text Classification",
+        "Vision",
+        "CUDA",
+        "Research",
+        "Reinforcement Learning",
+        "Unsupervised Learning",
+        "HuggingFace Transformers",
+        "Computational Modeling",
+        "Mathematics",
+        "Physics"
+      ]
+    },
+    {
+      "name": "Languages & frameworks",
+      "skills": [
+        "Swift",
+        "Javascript",
+        "PHP",
+        "C",
+        "C++",
+        "Java",
+        "Python",
+        "MATLAB",
+        "HTML/CSS",
+        "React.js",
+        "Golang",
+        "Perl",
+        "Object-oriented programming (OOP)"
+      ]
+    },
+    {
+      "name": "Platforms & development",
+      "skills": [
+        "iOS App Store",
+        "Xcode",
+        "UberKit",
+        "WeatherKit",
+        "BudgetAPI",
+        "MapKit",
+        "UI/UX Design",
+        "Android",
+        "Linux",
+        "GitHub",
+        "LaTex",
+        "Kubernetes",
+        "Linear Programming",
+        "Microsoft Azure",
+        "App Development",
+        "Geographic Information Systems (GIS)",
+        "Fullstack Software Development/Engineering",
+        "Serverless",
+        "Sphinx Autodoc"
+      ]
+    },
+    {
+      "name": "Leadership & collaboration",
+      "skills": [
+        "Policy",
+        "Leadership",
+        "Project Management",
+        "Advocacy",
+        "Innovation",
+        "Sustainability",
+        "International Relations",
+        "Collaboration",
+        "Public Speaking"
+      ]
+    }
+  ],
+  "languages": [
+    "Bengali",
+    "French",
+    "English"
+  ],
+  "degrees": [
+    "BS, Computer Science (minor Entrepreneurship)",
+    "AS, Computer Information Systems",
+    "AA, Natural Science and Math",
+    "Machine Learning Specialization",
+    "High School Diploma",
+    "Visharad, Indian Classical Music"
+  ]
+}

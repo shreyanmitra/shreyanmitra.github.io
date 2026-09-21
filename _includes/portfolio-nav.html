@@ -1,0 +1,14 @@
+<header class="site-nav nav-fade{% unless page.url == '/' %} scrolled{% endunless %}" data-nav>
+  <div class="container nav-inner">
+    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Shreyan Mitra home">Shreyan <em>Mitra</em><span class="accent">.</span></a>
+    <button class="menu-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav id="primary-nav" aria-label="Primary">
+      {% assign sections = 'Research,Publications,Projects,Teaching,About' | split: ',' %}
+      {% for section in sections %}{% assign slug = section | downcase %}<a href="{{ '/' | relative_url }}#{{ slug }}" data-section="{{ slug }}"{% if page.section == slug %} class="active" aria-current="page"{% endif %}>{{ section }}</a>{% endfor %}
+      <span class="nav-divider" aria-hidden="true"></span>
+      <a href="{{ '/talks/' | relative_url }}"{% if page.section == 'talks' or page.collection == 'talks' %} class="active" aria-current="page"{% endif %}>Talks</a>
+      <a href="{{ '/leadership/' | relative_url }}"{% if page.section == 'leadership' or page.collection == 'leadership' %} class="active" aria-current="page"{% endif %}>Leadership</a>
+      <a class="button button-outline nav-contact" href="{{ '/' | relative_url }}#contact">Contact {% include portfolio-icon.html name='external' %}</a>
+    </nav>
+  </div>
+</header>

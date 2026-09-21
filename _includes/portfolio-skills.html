@@ -1,0 +1,7 @@
+<section class="section section-compact" id="skills"><div class="container">
+  {% include portfolio-heading.html index='03.1' label='Skills & tools' title='Technical <em>Capabilities</em>' %}
+  <p class="section-intro skills-intro">Below, you will find a combination of hard and soft skills I have picked up from my projects, experiences, or elsewhere. I always look forward to adding to this list!</p>
+  <div class="skills-grid">{% for group in site.data.portfolio_skills.groups %}<div class="skill-group splat" style="--order:{{ forloop.index0 }}"><h3>{{ group.name }}</h3><ul class="skill-list">{% for skill in group.skills %}<li class="skill-row"><span class="skill-name">{{ skill }}</span></li>{% endfor %}</ul></div>{% endfor %}</div>
+  <p class="skills-note">Skills drawn from my projects and experience, grouped by area.</p>
+  <div class="two-col skills-supplement"><div><span class="eyebrow">Languages · At least professional fluency</span><div class="tags">{% for language in site.data.portfolio_skills.languages %}<span class="tag">{{ language }}</span>{% endfor %}</div></div><div><span class="eyebrow">Degrees · Completed or in progress</span><div class="tags">{% for degree in site.data.portfolio_skills.degrees %}<span class="tag">{{ degree }}</span>{% endfor %}</div></div></div>
+</div></section>

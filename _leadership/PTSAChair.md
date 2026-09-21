@@ -4,6 +4,8 @@ collection: leadership
 type: "Leadership"
 permalink: /leadership/ptsachair
 date: 2021-01-01
+portfolio_category: "Community"
+summary: "Advocating for student interests across 30+ schools as the only student on the board."
 ---
 
 Representing 30+ high schools in the board of the Parent-Teacher-Student Association for promoting student interests to school, local and state administrators and lawmakers, and coordinating actions among parents, students and school chapters.

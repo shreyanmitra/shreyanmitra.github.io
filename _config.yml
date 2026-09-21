@@ -12,7 +12,7 @@ site_theme               : "default" # default, air, sunrise, mint, dirt, or con
 title                    : "Shreyan Mitra"
 title_separator          : "-"
 name                     : &name "Shreyan"
-description              : &description "personal description"
+description              : &description "Student researcher and software developer focused on robust, accessible, and sustainable machine learning."
 url                      : https://shreyanmitra.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shreyanmitra/shreyanmitra.github.io"
@@ -163,6 +163,8 @@ exclude:
   - Gruntfile.js
   - LICENSE
   - README
+  - docs
+  - scripts
   - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
@@ -249,8 +251,8 @@ defaults:
       path: ""
       type: teaching
     values:
-      layout: single
-      author_profile: true
+      layout: portfolio-detail
+      author_profile: false
       share: true
       comments: true
   # _projects
@@ -258,22 +260,22 @@ defaults:
       path: ""
       type: projects
     values:
-      layout: single
-      author_profile: true
+      layout: portfolio-detail
+      author_profile: false
   # _leadership
   - scope:
       path: ""
       type: leadership
     values:
-      layout: single
-      author_profile: true
+      layout: portfolio-detail
+      author_profile: false
   # _publications
   - scope:
       path: ""
       type: publications
     values:
-      layout: single
-      author_profile: true
+      layout: portfolio-detail
+      author_profile: false
       share: true
       comments: true
   # _portfolio
@@ -290,8 +292,8 @@ defaults:
       path: ""
       type: talks
     values:
-      layout: talk
-      author_profile: true
+      layout: portfolio-detail
+      author_profile: false
       share: true
 
 

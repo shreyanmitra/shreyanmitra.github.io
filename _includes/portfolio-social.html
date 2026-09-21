@@ -1,0 +1,9 @@
+<div class="social-links">
+  <a href="mailto:{{ site.author.email }}">{% include portfolio-icon.html name='email' %} Email</a>
+  <a href="{{ site.author.googlescholar }}">{% include portfolio-icon.html name='scholar' %} Scholar</a>
+  <a href="https://github.com/{{ site.author.github }}">{% include portfolio-icon.html name='github' %} GitHub</a>
+  <a href="{{ site.author.linkedin }}">{% include portfolio-icon.html name='linkedin' %} LinkedIn</a>
+  <a href="{{ site.author.arxiv }}">{% include portfolio-icon.html name='arxiv' %} arXiv</a>
+  <a href="{{ site.author.orcid }}">{% include portfolio-icon.html name='orcid' %} ORCID</a>
+  {% if include.download %}<a class="social-download" href="{{ '/files/Shreyan%20Mitra-080924Resume.pdf' | relative_url }}">{% include portfolio-icon.html name='download' %} Download CV</a>{% endif %}
+</div>

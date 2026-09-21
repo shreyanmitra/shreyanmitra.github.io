@@ -7,26 +7,30 @@ date: 2024-11-17
 venue: 'ICPRAI Conference Proceedings'
 paperurl: 'https://arxiv.org/pdf/2311.10811'
 citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation comparison metric and applications&quot; <i>ICPRAI Conference Proceedings, 2024</i>. 1(3).'
+portfolio_category: "Conference"
+summary: "2 papers (4 total versioned papers). Comparing explanatory systems, quantifying their differences, and integrating the resulting metrics into machine learning pipelines."
+codeurl: "https://github.com/shreyanmitra/XAIPipe"
 ---
-<div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 4px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
+
+<div class="legacy-panel">
 <h2>At a Glance</h2>
-<b>Publication Venue</b><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> ICPRAI</button> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Arxiv </button><br>
-<b>Publication Status</b> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Working Paper </button> <br> <b>Part of</b> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'>ML Robustness</button> <button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'>ML Accessibility</button> <br> <b>Topic</b><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Explainability </button><br><b>Associated With</b> <button onclick="location.href='https://aiea-lab.github.io'" style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> <img src='../files/AIEALogo.png' style='height:20px;'/>  AIEA Lab</button>
+<b>Publication Venue</b><span class="tag"> ICPRAI</span> <span class="tag"> Arxiv </span><br>
+<b>Publication Status</b> <span class="tag"> Working Paper </span> <br> <b>Part of</b> <span class="tag">ML Robustness</span> <span class="tag">ML Accessibility</span> <br> <b>Topic</b><span class="tag"> Explainability </span><br><b>Associated With</b> <a class="resource-link" href="https://aiea-lab.github.io"> <img src='/files/AIEALogo.png' style='height:20px;'/>  AIEA Lab</a>
 <br>
 <br>
 <b>Versions </b>
-<button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'>3</button><br>
-<b>Code? </b><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> Yes </button><br>
-<b>Dataset? </b><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> No </button><br>
-<b>Separate Papers for Code and Dataset? </b><button style='border-radius:12px;background-color:rgb(203, 195, 227);border:none'> No </button>
+<span class="tag">3</span><br>
+<b>Code? </b><span class="tag"> Yes </span><br>
+<b>Dataset? </b><span class="tag"> No </span><br>
+<b>Separate Papers for Code and Dataset? </b><span class="tag"> No </span>
 </div>
-<div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 4px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
+<div class="legacy-panel">
 <h2>Quick Access Buttons </h2>
 <i>For latest versions only</i>
 <br>
 <br>
-<button>Code</button> <button>Paper</button> <button disabled>Slides</button> <button disabled>Video</button> <button disabled>Talk</button> <button disabled>Datasets</button></div>
-<div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
+<a class="resource-link" href="https://github.com/shreyanmitra/XAIPipe">Code</a> <a class="resource-link" href="https://arxiv.org/pdf/2311.10811">Paper</a> <span class="resource-unavailable" title="No resource link is available">Slides</span> <span class="resource-unavailable" title="No resource link is available">Video</span> <span class="resource-unavailable" title="No resource link is available">Talk</span> <span class="resource-unavailable" title="No resource link is available">Datasets</span></div>
+<div class="legacy-panel">
 <h2>Paper Preview</h2>
 <b>Excerpt</b>
 <br>None provided for current version. Taking excerpt from most recent published version
@@ -38,7 +42,7 @@ citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation com
 <br>
 <a href="https://github.com/shreyanmitra/XAIPipe">XAIPipe</a>
 </div>
-<div style="background-color: white; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; padding-top: 8px; border-radius: 8px; min-width:600px;margin-bottom: 25px">
+<div class="legacy-panel">
 <h2> History </h2>
 <b>Previous Published Versions of This Paper</b>
 <ol>

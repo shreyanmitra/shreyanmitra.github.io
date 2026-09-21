@@ -1,0 +1,10 @@
+---
+layout: portfolio
+---
+<header class="page-hero"><div class="container">
+  <a class="back-link" href="{{ '/' | relative_url }}#{{ page.section }}">← Back to overview</a>
+  <h1 class="hero-item">{{ page.display_title | default: page.title }}</h1>
+  <p class="section-label">{{ page.title }}</p>
+  {% if page.subtitle %}<p class="hero-item page-subtitle">{{ page.subtitle }}</p>{% endif %}
+</div></header>
+{{ content }}
