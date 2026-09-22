@@ -1,19 +1,37 @@
-# main links links
+# Primary navigation, rendered by _includes/portfolio-nav.html.
+#
+# Each entry is one of:
+#   section:      link to a homepage section anchor (/#<section>)
+#   url:          link to a standalone page; pair with `section` to mark it
+#                 active when a page or collection record belongs to it
+#   divider: true insert the vertical rule
+#   style: button render as the outlined call-to-action
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Research"
+    section: research
 
-  - title: "Projects & Skills"
-    url: /projects/
+  - title: "Publications"
+    section: publications
+
+  - title: "Projects"
+    section: projects
+
+  - title: "Teaching"
+    section: teaching
+
+  - title: "About"
+    section: about
+
+  - divider: true
 
   - title: "Talks"
     url: /talks/
+    section: talks
 
-  - title: "Teaching"
-    url: /teaching/
-
-  - title: "Leadership & Awards"
+  - title: "Leadership"
     url: /leadership/
+    section: leadership
 
-  - title: "Resume"
-    url: /resume/
+  - title: "Contact"
+    section: contact
+    style: button

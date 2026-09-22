@@ -1,7 +1,8 @@
 {% assign item = include.item %}
 <article class="record-row record-{{ item.collection }} {% if include.full %}record-full splat{% else %}reveal{% endif %}" data-category="{{ item.portfolio_category | escape }}" style="--order:{{ include.index | default: 0 }}">
   <div class="record-meta"><span class="badge badge-{{ item.portfolio_category | slugify }}">{{ item.portfolio_category | default: item.type | default: 'Research' }}</span><time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %Y' }}</time>{% if include.full %}<span>{{ item.location }}</span>{% if item.url == '/teaching/lightandsaltacademy' %}<span class="badge badge-award" title="President's Volunteer Service Gold Medal">★ Award</span>{% endif %}{% endif %}</div>
-  <div class="record-body"><h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>{% if item.venue %}<p class="record-venue">{{ item.venue }}</p>{% endif %}
+  {% assign heading_tag = include.heading | default: 'h3' %}
+  <div class="record-body"><{{ heading_tag }}><a href="{{ item.url | relative_url }}">{{ item.title }}</a></{{ heading_tag }}>{% if item.venue %}<p class="record-venue">{{ item.venue }}</p>{% endif %}
     {% if item.citation and item.collection == 'publications' %}<p class="citation">{{ item.citation }}</p>{% endif %}
     {% if include.full %}<div class="prose record-content">{{ item.content | markdownify }}</div>{% elsif item.summary %}<p>{{ item.summary }}</p>{% endif %}
     <div class="resource-links"><a href="{{ item.url | relative_url }}">{% if include.full %}Permalink{% else %}Full details{% endif %} →</a>{% if item.paperurl %}<a href="{{ item.paperurl }}">Paper ↗</a>{% endif %}{% if item.codeurl %}<a href="{{ item.codeurl }}">Code ↗</a>{% endif %}{% if item.videourl %}<a href="{{ item.videourl }}">Watch video ↗</a>{% endif %}</div>

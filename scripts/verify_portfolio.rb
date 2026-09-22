@@ -36,12 +36,25 @@ resolve = lambda do |route|
   [file, File.join(file, 'index.html'), "#{file}.html"].find { |candidate| File.file?(candidate) }
 end
 
+# Words the baseline carried that the candidate no longer has, counting repeats.
+shortfall = lambda do |baseline, candidate|
+  have = candidate.tally
+  baseline.tally.each_with_object([]) do |(word, count), missing|
+    missing << word if count > have.fetch(word, 0)
+  end
+end
+
 collections = Dir.glob('{_publications,_projects,_teaching,_leadership,_talks}/*.{md,html}')
 routes = []
 collections.each do |file|
   old_meta, old_body = split_source.call(source_at.call(file))
   new_meta, new_body = split_source.call(File.read(file, encoding: 'UTF-8'))
-  check.call(tokens.call(old_body) == tokens.call(new_body), "Source information changed: #{file}")
+  # Publication bodies now live in front matter and are rendered by an include,
+  # so for those the rendered page rather than the source is the content contract.
+  templated = new_body.match?(/\{%-?\s*include\s+portfolio-publication-detail\.html/)
+  unless templated
+    check.call(tokens.call(old_body) == tokens.call(new_body), "Source information changed: #{file}")
+  end
   %w[title date venue location citation paperurl excerpt].each do |key|
     check.call(old_meta[key] == new_meta[key], "Metadata lost: #{file}: #{key}") if old_meta.key?(key)
   end
@@ -52,7 +65,12 @@ collections.each do |file|
   next unless rendered_path
   rendered = Nokogiri::HTML(File.read(rendered_path, encoding: 'UTF-8'))
   body_text = rendered.at_css('article.prose')&.inner_html || ''
-  check.call(tokens.call(body_text).join(' ').include?(tokens.call(new_body).join(' ')), "Record body absent from rendered page: #{route}")
+  rendered_tokens = tokens.call(body_text)
+  missing = shortfall.call(tokens.call(old_body), rendered_tokens)
+  check.call(missing.empty?, "Record text lost: #{file}: #{missing.uniq.first(10).join(', ')}")
+  unless templated
+    check.call(rendered_tokens.join(' ').include?(tokens.call(new_body).join(' ')), "Record body absent from rendered page: #{route}")
+  end
   check.call(rendered.css('h1').length == 1, "Expected one main heading: #{route}")
 end
 check.call(routes.uniq.length == routes.length, 'Duplicate collection permalinks')

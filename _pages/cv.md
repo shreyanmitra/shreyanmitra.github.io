@@ -6,6 +6,7 @@ author_profile: false
 redirect_from:
   - /resume
 section: about
+kicker: Curriculum vitae
 ---
 
 {% include base_path %}
@@ -16,4 +17,4 @@ You'll have the option to either download my resume or see it the embedded viewe
 
 [Download Shreyan's CV](/files/Shreyan Mitra-080924Resume.pdf)
 
-<object data="/files/Shreyan%20Mitra-080924Resume.pdf" type="application/pdf" aria-label="Shreyan Mitra resume PDF"><p>This browser does not support PDFs. <a href="/files/Shreyan%20Mitra-080924Resume.pdf">Download the resume</a> to view it.</p></object>
+<object class="resume-embed" data="/files/Shreyan%20Mitra-080924Resume.pdf" type="application/pdf" aria-label="Shreyan Mitra resume PDF"><p>This browser does not support PDFs. <a href="/files/Shreyan%20Mitra-080924Resume.pdf">Download the resume</a> to view it.</p></object>

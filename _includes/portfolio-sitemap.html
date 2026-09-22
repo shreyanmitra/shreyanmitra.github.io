@@ -1,0 +1,10 @@
+{% include base_path %}
+<p>A list of all the posts and pages found on the site. For you robots out there is an <a href="{{ base_path }}/sitemap.xml">XML version</a> available for digesting as well.</p>
+<h2>Pages</h2>
+<ul class="sitemap-list">{% for post in site.pages %}{% assign clean_title = post.title | strip %}{% if clean_title != '' and post.sitemap != false %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>{% endif %}{% endfor %}</ul>
+{% if site.posts.size > 0 %}<h2>Posts</h2>
+<ul class="sitemap-list">{% for post in site.posts %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>{% endfor %}</ul>{% endif %}
+{% for collection in site.collections %}{% unless collection.output == false or collection.label == 'posts' %}
+<h2>{{ collection.label | capitalize }}</h2>
+<ul class="sitemap-list">{% for post in collection.docs %}<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>{% endfor %}</ul>
+{% endunless %}{% endfor %}

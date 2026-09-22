@@ -7,8 +7,12 @@ section: talks
 section_index: '06'
 display_title: 'Presentations & <em>Talks</em>'
 subtitle: "Computing, sustainability, and environmental policy — in classrooms, on stage, and on screen."
+talkmap: true
+redirect_from:
+  - /talkmap.html
 ---
 
-<section class="section section-compact"><div class="container"><div class="tags" aria-label="Talk types"><span class="badge badge-tedx">TEDx</span><span class="badge badge-guest-lecture">Guest lecture</span><span class="badge badge-documentary">Documentary</span></div></div></section>
 <section class="container archive-content"><div class="prose">{% capture notes %}{% include portfolio-talk-notes.html %}{% endcapture %}{{ notes | markdownify }}</div>
+<div class="tags" role="group" aria-label="Talk types">{% assign talk_types = site.talks | map: 'portfolio_category' | compact | uniq %}{% for type in talk_types %}<span class="badge badge-{{ type | slugify }}">{{ type }}</span>{% endfor %}</div>
 {% assign talks = site.talks | sort: 'date' | reverse %}{% assign last_year = '' %}{% for item in talks %}{% assign year = item.date | date: '%Y' %}{% unless year == last_year %}<h2 class="group-label">{{ year }}</h2>{% assign last_year = year %}{% endunless %}{% include portfolio-row.html item=item full=true %}{% endfor %}</section>
+{% include portfolio-talkmap.html %}

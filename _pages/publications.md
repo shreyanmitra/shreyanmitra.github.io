@@ -10,6 +10,6 @@ subtitle: "Explanatory systems, reliable language models, and computational mode
 ---
 
 <section class="container archive-content">
-{% for item in site.publications reversed %}{% include portfolio-row.html item=item %}{% endfor %}
+{% for item in site.publications reversed %}{% include portfolio-row.html item=item heading='h2' %}{% endfor %}
 <div class="prose">{% capture notes %}{% include portfolio-publication-notes.html %}{% endcapture %}{{ notes | markdownify }}</div>
 </section>

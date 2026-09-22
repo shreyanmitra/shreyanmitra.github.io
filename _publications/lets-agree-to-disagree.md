@@ -10,44 +10,43 @@ citation: 'Mitra,S and Gilpin, L. (2023). &quot;A novel post-hoc explanation com
 portfolio_category: "Conference"
 summary: "2 papers (4 total versioned papers). Comparing explanatory systems, quantifying their differences, and integrating the resulting metrics into machine learning pipelines."
 codeurl: "https://github.com/shreyanmitra/XAIPipe"
+glance:
+  venue_tags: ["ICPRAI", "Arxiv"]
+  status: "Working Paper"
+  part_of: ["ML Robustness", "ML Accessibility"]
+  topic: ["Explainability"]
+  associated_with:
+    - name: "AIEA Lab"
+      url: "https://aiea-lab.github.io"
+      logo: "/files/AIEALogo.png"
+  versions: 3
+  has_code: "Yes"
+  has_dataset: "No"
+  separate_papers: "No"
+quick_access:
+  - label: "Code"
+    url: "https://github.com/shreyanmitra/XAIPipe"
+  - label: "Paper"
+    url: "https://arxiv.org/pdf/2311.10811"
+  - label: "Slides"
+  - label: "Video"
+  - label: "Talk"
+  - label: "Datasets"
+preview:
+  excerpt_note: "None provided for current version. Taking excerpt from most recent published version"
+  excerpt: "Explanatory systems make the behavior of machine learning models more transparent, but are often inconsistent. To quantify the differences between explanatory systems, this paper presents the Shreyan Distance, a novel metric based on the weighted difference between ranked feature importance lists produced by such systems. This paper uses the Shreyan Distance to compare two explanatory systems, SHAP and LIME, for both regression and classification learning tasks. Because we find that the average Shreyan Distance varies significantly between these two tasks, we conclude that consistency between explainers not only depends on inherent properties of the explainers themselves, but also the type of learning task. This paper further contributes the XAISuite library, which integrates the Shreyan distance algorithm into machine learning pipelines."
+  citation_note: "None provided for current version. Taking citation from most recent published version"
+  citation: 'Mitra, Shreyan and Gilpin, Leilani. (2023). &quot;A novel post-hoc explanation comparison metric and applications&quot; <i>ICPRAI Conference Proceedings, 2024</i>. 1(3).'
+  code:
+    - label: "XAIPipe"
+      url: "https://github.com/shreyanmitra/XAIPipe"
+history:
+  versions:
+    - "<u>The XAISuite framework and the implications of explanatory system dissonance</u> (preprint Arxiv 2023)"
+    - "<u>A novel post-hoc explanation comparison metric and applications</u> (preprint Arxiv 2023 and published ICPRAI 2024)"
+  archived_code:
+    - label: "XAISuite"
+      url: "https://github.com/11301858/XAISuite"
 ---
 
-<div class="legacy-panel">
-<h2>At a Glance</h2>
-<b>Publication Venue</b><span class="tag"> ICPRAI</span> <span class="tag"> Arxiv </span><br>
-<b>Publication Status</b> <span class="tag"> Working Paper </span> <br> <b>Part of</b> <span class="tag">ML Robustness</span> <span class="tag">ML Accessibility</span> <br> <b>Topic</b><span class="tag"> Explainability </span><br><b>Associated With</b> <a class="resource-link" href="https://aiea-lab.github.io"> <img src='/files/AIEALogo.png' style='height:20px;'/>  AIEA Lab</a>
-<br>
-<br>
-<b>Versions </b>
-<span class="tag">3</span><br>
-<b>Code? </b><span class="tag"> Yes </span><br>
-<b>Dataset? </b><span class="tag"> No </span><br>
-<b>Separate Papers for Code and Dataset? </b><span class="tag"> No </span>
-</div>
-<div class="legacy-panel">
-<h2>Quick Access Buttons </h2>
-<i>For latest versions only</i>
-<br>
-<br>
-<a class="resource-link" href="https://github.com/shreyanmitra/XAIPipe">Code</a> <a class="resource-link" href="https://arxiv.org/pdf/2311.10811">Paper</a> <span class="resource-unavailable" title="No resource link is available">Slides</span> <span class="resource-unavailable" title="No resource link is available">Video</span> <span class="resource-unavailable" title="No resource link is available">Talk</span> <span class="resource-unavailable" title="No resource link is available">Datasets</span></div>
-<div class="legacy-panel">
-<h2>Paper Preview</h2>
-<b>Excerpt</b>
-<br>None provided for current version. Taking excerpt from most recent published version
-<blockquote>Explanatory systems make the behavior of machine learning models more transparent, but are often inconsistent. To quantify the differences between explanatory systems, this paper presents the Shreyan Distance, a novel metric based on the weighted difference between ranked feature importance lists produced by such systems. This paper uses the Shreyan Distance to compare two explanatory systems, SHAP and LIME, for both regression and classification learning tasks. Because we find that the average Shreyan Distance varies significantly between these two tasks, we conclude that consistency between explainers not only depends on inherent properties of the explainers themselves, but also the type of learning task. This paper further contributes the XAISuite library, which integrates the Shreyan distance algorithm into machine learning pipelines.</blockquote>
-<b>Citation</b>
-<br>None provided for current version. Taking citation from most recent published version
-<blockquote>Mitra, Shreyan and Gilpin, Leilani. (2023). &quot;A novel post-hoc explanation comparison metric and applications&quot; <i>ICPRAI Conference Proceedings, 2024</i>. 1(3). </blockquote>
-<b>Code</b>
-<br>
-<a href="https://github.com/shreyanmitra/XAIPipe">XAIPipe</a>
-</div>
-<div class="legacy-panel">
-<h2> History </h2>
-<b>Previous Published Versions of This Paper</b>
-<ol>
-<li>
-<u>The XAISuite framework and the implications of explanatory system dissonance </u> (preprint Arxiv 2023) <br> </li>
-<li> <u> A novel post-hoc explanation comparison metric and applications </u> (preprint Arxiv 2023 and published ICPRAI 2024) </li> </ol><br>
-<b>Archived Code</b> <br> <a href="https://github.com/11301858/XAISuite"> XAISuite </a>
-</div>
+{% include portfolio-publication-detail.html %}
