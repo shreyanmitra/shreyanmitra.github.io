@@ -53,7 +53,18 @@
         if (!card.hidden) { visible++; card.classList.add('revealed'); }
       });
       target.classList.toggle('single-result', visible === 1);
-      if (status) status.textContent = `${visible} ${visible === 1 ? 'project' : 'projects'} shown`;
+      const label = target.id === 'skill-cloud' ? 'skill' : (group.dataset.itemLabel || 'project');
+      const plural = `${label}s`;
+      if (status) status.textContent = `${visible} ${visible === 1 ? label : plural} shown`;
     });
+    if (target.id === 'skill-cloud') {
+      target.addEventListener('click', (event) => {
+        const chip = event.target.closest('[data-category]');
+        if (!chip) return;
+        const active = group.querySelector('button[aria-pressed="true"]');
+        const next = active?.dataset.filter === chip.dataset.category ? 'All' : chip.dataset.category;
+        [...group.querySelectorAll('button[data-filter]')].find((item) => item.dataset.filter === next)?.click();
+      });
+    }
   });
 })();

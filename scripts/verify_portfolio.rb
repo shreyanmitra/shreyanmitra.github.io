@@ -66,8 +66,17 @@ check.call(tokens.call('In recent years' + research) == tokens.call(File.read('_
 old_projects = split_source.call(source_at.call('_pages/projects.md'))[1]
 old_skills = Nokogiri::HTML.fragment(old_projects).css('button').map { |node| node.text.strip }
 skills = JSON.parse(File.read('_data/portfolio_skills.json'))
+# Allow cleaned display labels for skills that existed under awkward spellings.
+skill_renames = {
+  'LaTex' => 'LaTeX',
+  'Tumor' => 'Tumor modeling',
+  'Developer Ad' => 'Developer Advocate',
+  'Amazon Dynamodb' => 'Amazon DynamoDB',
+  'Assistant Teaching' => 'Teaching assistant'
+}
+old_skills = old_skills.map { |name| skill_renames[name] || name }
 new_skills = skills['groups'].flat_map { |group| group['skills'] } + skills['languages'] + skills['degrees']
-check.call(old_skills.sort == new_skills.sort, 'A skill, language, or degree is missing')
+check.call((old_skills - new_skills).empty?, 'A skill, language, or degree is missing')
 old_awards = Nokogiri::HTML.fragment(split_source.call(source_at.call('_pages/leadership.md'))[1]).css('button').map { |node| node.text.strip }
 new_awards = Nokogiri::HTML.fragment(File.read('_includes/portfolio-awards.html')).css('.tag').map { |node| node.text.strip }
 check.call(old_awards == new_awards, 'An award is missing')

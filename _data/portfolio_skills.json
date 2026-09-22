@@ -21,7 +21,28 @@
         "HuggingFace Transformers",
         "Computational Modeling",
         "Mathematics",
-        "Physics"
+        "Physics",
+        "Machine Learning",
+        "Agentic AI",
+        "Agentic Architecture",
+        "Agentic Workflows",
+        "AI Orchestration",
+        "Prompt Engineering",
+        "Model Context Protocol (MCP)",
+        "WebMCP",
+        "A2UI",
+        "ACP",
+        "Strands SDK",
+        "Anthropic Claude",
+        "GPT-4",
+        "Retrieval-Augmented Generation (RAG)",
+        "SHAP Explainer",
+        "LIME Explainer",
+        "Data Mining",
+        "Anomaly Detection",
+        "Modeling",
+        "Cancer Research",
+        "Tumor modeling"
       ]
     },
     {
@@ -39,7 +60,10 @@
         "React.js",
         "Golang",
         "Perl",
-        "Object-oriented programming (OOP)"
+        "Object-oriented programming (OOP)",
+        "Application Programming Interfaces (API)",
+        "JSON",
+        "Zod"
       ]
     },
     {
@@ -55,7 +79,7 @@
         "Android",
         "Linux",
         "GitHub",
-        "LaTex",
+        "LaTeX",
         "Kubernetes",
         "Linear Programming",
         "Microsoft Azure",
@@ -63,7 +87,35 @@
         "Geographic Information Systems (GIS)",
         "Fullstack Software Development/Engineering",
         "Serverless",
-        "Sphinx Autodoc"
+        "Sphinx Autodoc",
+        "Docker",
+        "System Architecture",
+        "Client-Server Model",
+        "Encryption",
+        "Software Development",
+        "Testing",
+        "Technical Documentation",
+        "Developer Advocate",
+        "Alice Animation Tool"
+      ]
+    },
+    {
+      "name": "Cloud & AWS",
+      "skills": [
+        "Amazon Bedrock",
+        "AWS Lambda",
+        "Amazon S3",
+        "Amazon DynamoDB",
+        "Amazon SQS",
+        "Amazon Redshift",
+        "API Gateway",
+        "Identity and Access Management (IAM)",
+        "Open Search Serverless",
+        "Amazon ECS",
+        "AWS CloudFormation",
+        "OpenTelemetry",
+        "Data Lakes",
+        "Data Center Infrastructure"
       ]
     },
     {
@@ -77,7 +129,27 @@
         "Sustainability",
         "International Relations",
         "Collaboration",
-        "Public Speaking"
+        "Public Speaking",
+        "Entrepreneurship",
+        "Management",
+        "Team Leadership",
+        "Cross-functional Team Leadership",
+        "Team Building",
+        "Teaching",
+        "Teaching assistant",
+        "Peer Tutoring",
+        "Online Tutoring",
+        "Education",
+        "Presentation Skills",
+        "Community Outreach",
+        "Youth Advocacy",
+        "Environmental Awareness",
+        "Ecology",
+        "Social Media Marketing",
+        "Global Strategy",
+        "Risk Assessment",
+        "Patent Preparation",
+        "Geography"
       ]
     }
   ],
