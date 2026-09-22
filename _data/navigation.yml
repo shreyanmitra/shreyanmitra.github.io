@@ -16,6 +16,10 @@ main:
   - title: "Projects"
     section: projects
 
+  - title: "Experience"
+    url: /experience/
+    section: experience
+
   - title: "Teaching"
     section: teaching
 

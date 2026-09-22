@@ -1,7 +1,7 @@
 ---
 title: "Nonsense: A priori Detection of Hallucinations in LLMs"
 collection: publications
-permalink: /publication/nonsense-apriori-detection-of-hallucinations-in-llms
+permalink: "/publication/nonsense-apriori-detection-of-hallucinations-in-llms/"
 excerpt: <i>Nothing here yet</i>
 date: 2024-11-18
 portfolio_category: "Working paper"

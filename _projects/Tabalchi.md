@@ -2,7 +2,7 @@
 title: "Tabalchi"
 collection: projects
 type: "Project"
-permalink: /projects/tabalchi
+permalink: "/projects/tabalchi/"
 date: 2024-10-22
 portfolio_category: "Libraries"
 featured: true

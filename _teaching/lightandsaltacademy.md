@@ -2,7 +2,7 @@
 title: "Light and Salt Academy Tutor"
 collection: teaching
 type: "Tutoring"
-permalink: /teaching/lightandsaltacademy
+permalink: "/teaching/lightandsaltacademy/"
 venue: "Light and Salt Academy"
 date: 2020-11-17
 location: "Santa Clara, CA"

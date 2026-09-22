@@ -2,7 +2,7 @@
 title: "Student Senator, University of Washington"
 collection: leadership
 type: "Leadership"
-permalink: /leadership/asuwsenator
+permalink: "/leadership/asuwsenator/"
 date: 2024-10-22
 portfolio_category: "University"
 summary: "Representing around 1,000 students in the University of Washington’s student government."

@@ -2,7 +2,7 @@
 title: "Plastic-fantastic? A domestic blueprint for fighting plastic pollution"
 collection: talks
 type: "Talk"
-permalink: /talks/plastic-documentary
+permalink: "/talks/plastic-documentary/"
 venue: "Loews Bay Coronado Resort"
 date: 2023-12-10
 location: "San Diego, California"

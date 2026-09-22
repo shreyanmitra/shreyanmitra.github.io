@@ -2,7 +2,7 @@
 title: "Teacher Assistant at Mission College"
 collection: teaching
 type: "Tutoring"
-permalink: /teaching/missioncollegeta
+permalink: "/teaching/missioncollegeta/"
 venue: "Mission College"
 date: 2024-02-01
 location: "Santa Clara, CA"

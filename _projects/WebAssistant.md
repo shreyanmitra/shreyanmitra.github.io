@@ -2,7 +2,7 @@
 title: "WebAssistant"
 collection: projects
 type: "Project"
-permalink: /projects/webassistant
+permalink: "/projects/webassistant/"
 date: 2022-01-01
 portfolio_category: "AI & Tools"
 featured: true

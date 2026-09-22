@@ -2,7 +2,7 @@
 title: "Board Member and Advocacy Chair, Santa Clara Unified Council of PTAs"
 collection: leadership
 type: "Leadership"
-permalink: /leadership/ptsachair
+permalink: "/leadership/ptsachair/"
 date: 2021-01-01
 portfolio_category: "Community"
 summary: "Advocating for student interests across 30+ schools as the only student on the board."

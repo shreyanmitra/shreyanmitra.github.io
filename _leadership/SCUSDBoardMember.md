@@ -2,7 +2,7 @@
 title: "Environmental Awareness and Sustainability Initiatives Steering Committee Member and Task Force Lead, Santa Clara Unified School District"
 collection: leadership
 type: "Leadership"
-permalink: /leadership/scusdboard
+permalink: "/leadership/scusdboard/"
 date: 2022-01-01
 portfolio_category: "Community"
 summary: "Connecting students, parents, and other stakeholders across 30+ schools to advance environmental curriculum and sustainability."

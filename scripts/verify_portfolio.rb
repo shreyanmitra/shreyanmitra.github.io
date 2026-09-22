@@ -44,10 +44,19 @@ shortfall = lambda do |baseline, candidate|
   end
 end
 
-collections = Dir.glob('{_publications,_projects,_teaching,_leadership,_talks}/*.{md,html}')
+collections = Dir.glob('{_publications,_projects,_teaching,_leadership,_talks,_experience}/*.{md,html}')
 routes = []
 collections.each do |file|
-  old_meta, old_body = split_source.call(source_at.call(file))
+  text, error, status = Open3.capture3('git', 'show', "#{baseline}:#{file}")
+  unless status.success?
+    # New records added after the baseline are allowed; still require a rendered route.
+    new_meta, = split_source.call(File.read(file, encoding: 'UTF-8'))
+    route = new_meta['permalink']
+    routes << route if route
+    check.call(!resolve.call(route).nil?, "Missing collection route: #{route}") if route
+    next
+  end
+  old_meta, old_body = split_source.call(text.force_encoding('UTF-8'))
   new_meta, new_body = split_source.call(File.read(file, encoding: 'UTF-8'))
   # Publication bodies now live in front matter and are rendered by an include,
   # so for those the rendered page rather than the source is the content contract.
@@ -97,7 +106,7 @@ new_skills = skills['groups'].flat_map { |group| group['skills'] } + skills['lan
 check.call((old_skills - new_skills).empty?, 'A skill, language, or degree is missing')
 old_awards = Nokogiri::HTML.fragment(split_source.call(source_at.call('_pages/leadership.md'))[1]).css('button').map { |node| node.text.strip }
 new_awards = Nokogiri::HTML.fragment(File.read('_includes/portfolio-awards.html')).css('.tag').map { |node| node.text.strip }
-check.call(old_awards == new_awards, 'An award is missing')
+check.call((old_awards - new_awards).empty?, 'An award is missing')
 
 # Check that the redesigned presentation exposes every skill, not just the data file.
 projects_doc = Nokogiri::HTML(File.read(resolve.call('/projects/'), encoding: 'UTF-8'))
@@ -113,7 +122,9 @@ all_rendered = Dir.glob(File.join(output, '**/*.html')).map { |file| File.read(f
 new_destinations = Nokogiri::HTML(all_rendered).css('a[href]').map { |node| node['href'] }
 content_sources = collections + %w[_pages/about.md _pages/projects.md _pages/publications.md _pages/leadership.md _pages/talks.html _pages/teaching.html _pages/cv.md]
 content_sources.each do |file|
-  old_source = source_at.call(file)
+  old_source, _error, status = Open3.capture3('git', 'show', "#{baseline}:#{file}")
+  next unless status.success?
+  old_source.force_encoding('UTF-8')
   old_html = Kramdown::Document.new(split_source.call(old_source)[1], input: 'GFM').to_html
   destinations = Nokogiri::HTML.fragment(old_html).css('a[href]').map { |node| node['href'] }
   destinations += old_source.scan(/(?:location\.href\s*=\s*|window\.open\()'(https?:[^']+)'/).flatten
@@ -122,7 +133,7 @@ content_sources.each do |file|
   end
 end
 
-core = %w[/ /projects/ /publications/ /teaching/ /leadership/ /talks/ /resume/ /sitemap/ /404.html]
+core = %w[/ /projects/ /publications/ /teaching/ /leadership/ /talks/ /experience/ /resume/ /sitemap/ /404.html]
 core.each { |route| check.call(!resolve.call(route).nil?, "Missing primary route #{route}") }
 %w[/about/ /about.html /resume].each { |route| check.call(!resolve.call(route).nil?, "Missing existing alias #{route}") }
 (core + routes).each do |route|

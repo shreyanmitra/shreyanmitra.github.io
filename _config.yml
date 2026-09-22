@@ -221,6 +221,9 @@ collections:
   leadership:
     output: true
     permalink: /:collection/:path/
+  experience:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -263,6 +266,13 @@ defaults:
   - scope:
       path: ""
       type: leadership
+    values:
+      layout: portfolio-detail
+      author_profile: false
+  # _experience
+  - scope:
+      path: ""
+      type: experience
     values:
       layout: portfolio-detail
       author_profile: false

@@ -2,9 +2,10 @@
 title: "Choitee"
 collection: projects
 type: "Project"
-permalink: /projects/choitee
+permalink: "/projects/choitee/"
 date: 2022-01-01
 portfolio_category: "Applications"
+featured: true
 tags: ["JavaScript","Android","PHP"]
 summary: "A web and Android app providing mental health guidance to teenagers and connecting them with trusted people and medical professionals."
 ---

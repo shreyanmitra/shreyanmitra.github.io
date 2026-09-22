@@ -2,9 +2,10 @@
 title: "GoThere"
 collection: projects
 type: "Project"
-permalink: /projects/gothere
+permalink: "/projects/gothere/"
 date: 2022-01-01
 portfolio_category: "Applications"
+featured: true
 tags: ["Swift","Xcode","MapKit","Image classification"]
 summary: "An iOS travel app using image classification and location tracking to identify geographic features and build itineraries."
 ---

@@ -2,7 +2,7 @@
 title: "The Importance of Computing in Sustainability Efforts"
 collection: talks
 type: "Talk"
-permalink: /talks/ESRM300
+permalink: "/talks/ESRM300/"
 venue: "University of Washington, Seattle"
 date: 2023-12-10
 location: "Seattle, Washington"

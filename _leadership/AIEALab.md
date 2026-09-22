@@ -2,7 +2,7 @@
 title: "Project Lead, AIEA Lab"
 collection: leadership
 type: "Leadership"
-permalink: /leadership/aiealead
+permalink: "/leadership/aiealead/"
 date: 2024-06-01
 portfolio_category: "Research leadership"
 summary: "Leading a team of 5–6 researchers studying large language model robustness at UC Santa Cruz’s AIEA Lab."

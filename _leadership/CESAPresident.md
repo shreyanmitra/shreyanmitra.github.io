@@ -2,7 +2,7 @@
 title: "President and Founder, CESA"
 collection: leadership
 type: "Leadership"
-permalink: /leadership/cesapresident
+permalink: "/leadership/cesapresident/"
 date: 2023-10-01
 portfolio_category: "University"
 summary: "Founded Computing for Environmental and Social Advocacy, an Allen School organization applying computing to social and environmental issues."

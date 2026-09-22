@@ -2,7 +2,7 @@
 title: "Oceans are Listening: Our Foreign Policy Must Speak"
 collection: talks
 type: "Talk"
-permalink: /talks/TEDxCraverRoad
+permalink: "/talks/TEDxCraverRoad/"
 venue: "University of North Carolina, Charlotte"
 date: 2021-10-01
 location: "Charlotte, North Carolina"
