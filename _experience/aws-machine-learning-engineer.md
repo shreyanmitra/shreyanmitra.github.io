@@ -9,6 +9,7 @@ venue: "Amazon Web Services (AWS)"
 location: "Seattle, WA"
 portfolio_category: "Industry"
 role: "Machine Learning Engineer"
+icon: "/files/AWS-logo.svg"
 summary: "Built an agentic assistant for AWS datacenter work and serverless ML systems for schedule risk, with estimated multimillion-dollar mitigation impact."
 ---
 

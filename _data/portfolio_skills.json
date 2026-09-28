@@ -42,7 +42,14 @@
         "Anomaly Detection",
         "Modeling",
         "Cancer Research",
-        "Tumor modeling"
+        "Tumor modeling",
+        "Knowledge Distillation",
+        "Multi-agent RL",
+        "OpenAI Gym",
+        "SAST",
+        "Static Analysis",
+        "Local LLMs",
+        "Ollama"
       ]
     },
     {
@@ -50,6 +57,7 @@
       "skills": [
         "Swift",
         "Javascript",
+        "TypeScript",
         "PHP",
         "C",
         "C++",
@@ -58,12 +66,25 @@
         "MATLAB",
         "HTML/CSS",
         "React.js",
+        "Next.js",
+        "Flask",
+        "FastAPI",
+        "Express",
+        "MongoDB",
+        "D3.js",
+        "Electron",
+        "Unreal Engine",
         "Golang",
         "Perl",
         "Object-oriented programming (OOP)",
         "Application Programming Interfaces (API)",
         "JSON",
-        "Zod"
+        "Zod",
+        "pandas",
+        "OR-Tools",
+        "Tailwind CSS",
+        "Tree-sitter",
+        "Stripe"
       ]
     },
     {
@@ -89,6 +110,7 @@
         "Serverless",
         "Sphinx Autodoc",
         "Docker",
+        "MQTT",
         "System Architecture",
         "Client-Server Model",
         "Encryption",
@@ -96,7 +118,12 @@
         "Testing",
         "Technical Documentation",
         "Developer Advocate",
-        "Alice Animation Tool"
+        "Alice Animation Tool",
+        "Edge Computing",
+        "Browser Extensions",
+        "Accessibility",
+        "Game Development",
+        "Claude Code"
       ]
     },
     {

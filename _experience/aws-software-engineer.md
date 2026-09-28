@@ -9,6 +9,7 @@ venue: "Amazon Web Services (AWS)"
 location: "Bellevue, WA"
 portfolio_category: "Industry"
 role: "Software Engineer"
+icon: "/files/AWS-logo.svg"
 summary: "Built agent orchestration and A2UI integrations for AWS data-center teams; owned 36 packages and shipped 188 change requests."
 ---
 

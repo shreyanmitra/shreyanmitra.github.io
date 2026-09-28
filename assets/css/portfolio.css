@@ -1014,6 +1014,19 @@ p {
   color:var(--quiet)
 }
 
+.record-icon.card-icon {
+  width:40px;
+  height:40px;
+  margin:0;
+  padding:6px;
+  flex-shrink:0;
+  align-self:flex-start
+}
+
+.record-row.has-icon {
+  align-items:flex-start
+}
+
 .badge {
   font-size:12px;
   font-weight:500;
