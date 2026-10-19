@@ -1,5 +1,6 @@
 /* A small physical control outside the reading column. */
 .lighting-switch {
+  --cord-fill:#a8cbff;--cord-edge:#507cb8;--cord-hover:#cee1ff;
   position:fixed;z-index:60;top:0;right:max(12px,env(safe-area-inset-right));
   width:48px;height:116px;padding:0;border:0;background:transparent;
   color:#cbd5e1;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent;
@@ -10,9 +11,9 @@
 .cord-thread { stroke:#64748b;stroke-width:1; }
 .cord-thread,.cord-beads { transform-origin:24px 7px; }
 .cord-beads { stroke:currentColor;stroke-width:3;stroke-dasharray:.1 5;stroke-linecap:round; }
-.cord-handle { fill:#d4b57b;stroke:#8c7247;stroke-width:1; }
-.cord-grip { fill:none;stroke:#8c7247;stroke-width:1; }
-.lighting-switch:hover .cord-handle { fill:#eed6a6; }
+.cord-handle { fill:var(--cord-fill);stroke:var(--cord-edge);stroke-width:1; }
+.cord-grip { fill:none;stroke:var(--cord-edge);stroke-width:1; }
+.lighting-switch:hover .cord-handle { fill:var(--cord-hover); }
 .lighting-switch:focus-visible { outline:2px solid var(--accent-bright);outline-offset:3px;border-radius:0 0 16px 16px; }
 .lighting-hint {
   position:absolute;right:54px;top:74px;white-space:nowrap;padding:3px 10px;
@@ -41,7 +42,8 @@
   [data-theme="light"] .badge,[data-theme="light"] .badge-award { color:#174887;background:#e0eafb;border-color:#a9c4ed; }
   [data-theme="light"] .prose a:not(.button),[data-theme="light"] .record-body a { text-decoration-color:#6c86aa; }
   [data-theme="light"] .prose pre,[data-theme="light"] .prose code { background:#e8eef6;color:#172235; }
-  [data-theme="light"] .lighting-switch { color:#64748b; }
+  [data-theme="light"] .lighting-switch { color:#64748b;--cord-fill:#2563eb;--cord-edge:#153f98;--cord-hover:#3b75ef; }
+  [data-theme="light"] .cord-grip { stroke:#b7d3ff; }
 }
 @media (prefers-reduced-motion:reduce) { html[data-theme],html[data-theme] body { transition:none; } }
 @media print { .lighting-switch { display:none; } }
